@@ -128,7 +128,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: 2.25rem;
+    padding-block: min(2.25rem, 3.125vw);
     padding-inline: min(2.25rem, 3.125vw) ;
 }
 
