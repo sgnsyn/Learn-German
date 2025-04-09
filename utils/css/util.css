@@ -12,8 +12,6 @@
 }
 
 :root{
-    font-size: 16px;
-
 /* ******************* colors ***************** */
     --yellow:#F1CF28;
     --light-yellow:#F4E657;
@@ -32,6 +30,74 @@
 
     --primary-color: var(--off-white);
     --secondary-color: var(--black);
+}
+
+/* Default for very large screens (8K and above) */
+html {
+  font-size: 24px;
+}
+
+/* 8K screens (max-width: 7680px) */
+@media (max-width: 7680px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+/* Slightly smaller screens */
+@media (max-width: 6000px) {
+  html {
+    font-size: 21px;
+  }
+}
+
+/* 4K screens */
+@media (max-width: 4800px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+/* High-resolution desktops */
+@media (max-width: 3600px) {
+  html {
+    font-size: 19px;
+  }
+}
+
+/* Wide monitors / ultrawide */
+@media (max-width: 2560px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* Standard large desktop screens */
+@media (max-width: 1920px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+/* Smaller desktops/laptops – letting the font be set to 16px here */
+@media (max-width: 1440px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Medium screens */
+@media (max-width: 720px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+/* Small devices */
+@media (max-width: 375px) {
+  html {
+    font-size: 14px;
+  }
 }
 
 
@@ -62,6 +128,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: 36px;
-    padding-inline: 3.125vw ;
+    padding-block: 2.25rem;
+    padding-inline: min(2.25rem, 3.125vw) ;
+}
+
+#setting-btn img{
+ width: 2.5rem;
+ height: 2.5rem;
+ object-fit: cover;
 }

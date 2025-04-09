@@ -6,78 +6,76 @@ body{
 }
 
 
+
 .hero-text{
     font-family: Unifrak;
-    font-size: 78px;
+    font-size: 3.875rem; /* 78px / 16 */
     width: 100%;
     text-align:center;
-    margin-bottom: 100px;
+    margin-bottom: 2.5rem; /* 100px / 16 */
 }
 
 .cards-container{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 1rem;   
     padding-inline: 13.125vw;
-    margin-bottom: 32px;
-    width: fit-content;
-    margin-inline: auto;
+    margin-bottom: 2rem; /* 32px / 16 */
 }
-
 
 .card{
     color: var(--black);
-    height: 396px;
+    height: 24.75rem; /* 396px / 16 */
     border-radius:1rem;
-   background-color: var(--card-color-1);
+    background-color: var(--card-color-1);
 }
 .card .top-container{
-   background-color: var(--card-color-2);
-   height: 50%;
-    border-radius:16px;
+    background-color: var(--card-color-2);
+    height: 50%;
+    border-radius:1rem; /* 16px / 16 */
     display: grid;
     place-content: center;
     font-family: Unifrak;
-    margin-bottom: 16px;
+    margin-bottom: 1rem; /* 16px / 16 */
 }
 
 .card .bottom-container{
-    padding-inline: 18px;
+    padding-inline: 1.125rem; /* 18px / 16 */
 }
 
 .card .card-footer{
     display: flex;
-            justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 23px;
+    margin-bottom: 1.4375rem; /* 23px / 16 */
 }
-
 
 .card .title{
     font-family:Righ;
-    margin-bottom: 14px;
-    font-size: 32px;
+    margin-bottom: 0.875rem; /* 14px / 16 */
+    font-size: 2rem; /* 32px / 16 */
 }
 
 .card .description{
     width: 29ch;
     font-family: Mono;
-    margin-bottom: 26px;
-    font-size: 16px;
+    margin-bottom: 1.625rem; /* 26px / 16 */
+    font-size: 1rem; /* 16px / 16 */
 }
 
 .lessons{
     font-family: Righ;
     display: flex;
-    gap: 40px;
-    margin-left: 18px;
-    font-size: 14px;
+    gap: 2.5rem; /* 40px / 16 */
+    margin-left: 1.125rem; /* 18px / 16 */
+    font-size: 0.875rem; /* 14px / 16 */
 }
 
 .card .red-btn{
     background-color: var(--card-color-2); 
-    width: 42px;
-    height: 42px;
+    width: 2.625rem; /* 42px / 16 */
+    height: 2.625rem; /* 42px / 16 */
     border-radius: 100vw;
     display: grid; 
     place-content: center;
@@ -89,9 +87,8 @@ body{
 }
 
 .number-card .top-container{
-    font-size: 141px;
+    font-size: 8.8125rem; /* 141px / 16 */
 }
-
 
 .time-card{
     --card-color-1: var(--light-blue);
@@ -99,7 +96,7 @@ body{
 }
 
 .time-card .top-container{
-    font-size: 95px;
+    font-size: 5.9375rem; /* 95px / 16 */
 }
 
 .phoneme-card{
@@ -108,21 +105,15 @@ body{
 }
 
 .phoneme-card .top-container{
-    font-size: 120px;
+    font-size: 7.5rem; /* 120px / 16 */
 }
+
 .date-card{
     --card-color-1: var(--light-red);
     --card-color-2: var(--red);
 }
 
 .date-card .top-container{
-    font-size: 48px;
-}
-
-@media (max-width: 1345px) {
-    .cards-container{
-        justify-content:center;
-        width: initial;
-    }
+    font-size: 3rem; /* 48px / 16 */
 }
 

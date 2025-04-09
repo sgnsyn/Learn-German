@@ -1,17 +1,11 @@
-# 🧠 Simple Learning Website
+# 🧠 Learn German
 
-This is a web-based learning platform designed to help users practice basic but essential skills in a fun and interactive way.
+This website is designed to help users **easily learn and practice** basic but essential German lessons in a simple and practical way.
 
 ## 🌟 Features
 
-- 🕒 Practice **telling time** using analog and digital clocks  
-- 📅 Learn to **tell the date** accurately  
-- 🔤 Explore and practice **phonemes** to improve pronunciation  
-- ✨ More simple learning tools coming soon!
-
-## 🚀 Getting Started
-
-To run the website locally:
-
-
+- 🕒 Practice **telling time** in German  
+- 📅 Learn to **tell the date** and talk about days and months in German  
+- 🔤 Explore and practice **phonemes** to improve your German pronunciation  
+- ✨ More simple and practical learning tools are coming soon!
 
