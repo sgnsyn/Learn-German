@@ -86,17 +86,25 @@ html {
   }
 }
 
+@media  (max-width: 900px){
+    html{
+    font-size: 14px;
+    }
+}
+
+
+
 /* Medium screens */
 @media (max-width: 720px) {
   html {
-    font-size: 15px;
+    font-size: 13px;
   }
 }
 
 /* Small devices */
 @media (max-width: 375px) {
   html {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
