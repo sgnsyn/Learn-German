@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Righ';
+  src: url('../../assets/fonts/Righteous/Righteous-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Mono';
+  src: url('../../assets/fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Unifrak';
+  src: url('../../assets/fonts/UnifrakturCook/UnifrakturCook-Bold.ttf') format('truetype');
+}
+
+:root{
+    font-size: 16px;
+
+/* ******************* colors ***************** */
+    --yellow:#F1CF28;
+    --light-yellow:#F4E657;
+    --blue:#877BFF;
+    --light-blue:#B5ADFF;
+    --green:#20F59B;
+    --light-green:#4FF7B0;
+    --red:#FF4665;
+    --light-red:#FF7A91;
+    
+
+    --off-white: #E5E5E5;
+    --white: #FFFFFF;
+    --black: #000000;
+    --gray: #A6A6A6;
+
+    --primary-color: var(--off-white);
+    --secondary-color: var(--black);
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-color: var(--black);
+        --secondary-color: var(--off-white);
+    }
+}
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: transparent;
+    border:none ;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 36px;
+    padding-inline: 3.125vw ;
+}
