@@ -1,26 +1,75 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="./script.js" defer></script>
-    <title>Wie spät ist es?</title>
-  </head>
-  <body>
-    <p id="question">02:00</p>
-    <div>
-      <span>Es ist</span>
-      <input
-        id="time-input"
-        type="text"
-        autocomplete="off"
-        lang="de"
-        placeholder="Type here..."
-      />
-      <span>.</span>
-    </div>
-    <p id="correct-answer"></p>
-    <button id="reset-btn">reset</button>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="./script.js" defer></script>
+        <title>Wie spät ist es?</title>
+    </head>
+    <body>
+        <nav> 
+            <a class="homepage-link" href = "../../index.html">Learn German</a> 
+            <button id = "setting-btn"><img src="../../assets/icons/settings.svg" alt="setting icon"></button>
+        </nav>
+        <div class="main-container">
+            <div class="sidebar">
+                <p class="side-title">Lessons</p>
+                <div class = "lessons-list">
+                    <p class="lessons-link active">Time</p>
+                    <a class="lessons-link" href="#">Numbers</a>
+                    <a class="lessons-link" href="#">Phoneme</a>
+                    <a class="lessons-link" href="#">Date</a>
+                </div>
+            </div>
+            <div class="content-container">
+                <div class="lp-nav">
+                    <button class="lp-nav-btn active">Practice</button>
+                    <button class="lp-nav-btn">Learn</button>
+                </div>
+                <div class="time-container">
+                    <p class="time">09:03</p>
+                </div>
+                <div class="answer-reset-container">
+                    <div class="answer-container">
+                        <span>Es ist</span>
+                        <input id="asnwer-input" type="text">
+                        <span>.</span>
+                    </div>
+                    <button id="reset-btn" class="proper-btn">Reset</button>
+                </div>
+                <div class="config-container">
+        <!-- new -->
+        <div>
+            <p class="format-label label"> Time Format</p>
+            <div class="time-format-container">
+                <div class="format-container lr-container 12hr">
+                    <label for="12hr-radio">12 Hr</label>
+                    <input type="radio" name = "format-radio" id  = "12hr-radio">
+                </div>
+                <div class="format-container lr-container 24hr">
+                    <label for="24hr-radio">24 Hr</label>
+                    <input type="radio" name = "format-radio" id = "24hr-radio">
+                </div>
+            </div>
+        </div>
+        <!-- new 2 -->
+        <div>
+            <p class="mode-label label">Time Telling</p>
+            <div class="practice-mode-container">
+                <div class="mode-container lr-container formal">
+                    <label for="formal-radio">Formal</label>
+                    <input type="radio" name = "mode-radio" id = "formal-radio">
+                </div>
+                <div class="mode-container lr-container casual">
+                    <label for="casual-radio">Casual</label>
+                    <input type="radio" name = "mode-radio"  id  = "casual-radio">
+                </div>
+            </div>
+        </div>
+        <!-- new end -->
+                </div>
+            </div>
+        </div>
+    </body>
 </html>

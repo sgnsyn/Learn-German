@@ -1,40 +1,176 @@
+@import url("../../utils/css/util.css");
+@import url("../../utils/css/lessons.css");
+
+html{
+    --accent-color: var(--blue);
+}
+
 body {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  align-items: center;
-  justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    height: 100vh;
+    gap: 1rem;
 }
 
-#time-input,
-#time-input:focus {
-  border: none;
-  border-radius: 0.5rem;
-  outline: none;
-  background-color: #eeeeee;
-  padding: 0.75rem;
-  margin-left: 0.5rem;
-}
-#correct-answer {
-  height: 1rem;
-}
-span,
-input,
-p {
-  font-size: 16px;
-  font-weight: bold;
-  font-family: Nunito;
+.main-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-#time-input::placeholder {
-  font-family: "Source Code Pro";
+.side-title{
+    font-size: 1.375rem; /* 22px / 16 */
+    font-family: Righ;
+    margin-bottom: 0.8125rem; /* 13px / 16 */
 }
 
-.wrong {
-  color: red;
+.lessons-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem; /* 20px / 16 */
+    padding-left: 2rem; /* 32px / 16 */
 }
 
-.correct {
-  color: green;
+.lessons-link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-family: Righ;
+    font-size: 1rem; /* 16px / 16 */
+}
+
+.lessons-link.active{
+    color: var(--accent-color);
+}
+
+.lp-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3.5625rem; /* 57px / 16 */
+    margin-bottom: 3.625rem; /* 58px / 16 */
+}
+.lp-nav-btn{
+    font-family: Righ;
+    color: var(--secondary-color);
+    position: relative;
+    font-size: 1rem;
+}
+.lp-nav-btn::after{
+    content: "";
+    position: absolute;
+    height: 0.2ch;
+    background-color: var(--accent-color);
+    border-radius:100vw;
+    bottom: -0.5ch;
+    left:50%;
+    transform: translateX(-50%)
+}
+.lp-nav-btn.active{
+    color: var(--accent-color)
+}
+.lp-nav-btn.active::after{
+    width: 66%;
+}
+
+.content-container{
+    padding-inline: 2rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.time{
+    text-align: center;
+    font-family:Orbi;
+    font-size: 5.625rem; /* 90px / 16 */
+    color: var(--accent-color);
+    margin-bottom: 1.25rem; /* 20px / 16 */
+}
+
+.answer-reset-container{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem; /* 16px / 16 */
+    margin-bottom: 5rem; /* 62px / 16 */
+}
+.answer-container{
+    display: flex;
+    align-items: center;
+    gap: 2ch;
+}
+.answer-container input{
+    padding: 0.75rem 0.5rem; /* 12px 8px / 16 */
+    font-family: Mono;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: var(--accent-gray) ;
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 0.5625rem; /* 9px / 16 */
+}
+
+.answer-container input:focus{
+    outline: 0.0625px solid var(--accent-color);
+    outline-offset: 0.125rem;
+}
+
+.answer-container span{
+    font-family: Mono;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.proper-btn{
+    background-color: var(--accent-color);
+    color: var(--black);
+    font-family:righ; 
+    font-size: 1rem; /* Fixed 16p to 1rem */
+    padding: 0.5rem 1rem; /* 8px 16px / 16 */
+    border-radius: 100vw;
+    width: fit-content;
+}
+.proper-btn:focus{
+    outline: 0.0625rem solid var(--accent-color);
+    outline-offset: 0.125rem;
+}
+.config-container{
+   display:grid;
+   grid-template-columns: repeat(auto-fit, 15.625rem); /* 250px / 16 */
+   justify-content: center;
+   column-gap: 4rem; /* 84px / 16 */
+   row-gap: 1.5rem; /* 38px / 16 */
+}
+
+p.label{
+    font-size: 1rem; /* 16px / 16 */
+    font-family: righ;
+    color: var(--secondary-color) ;
+    margin-bottom: 0.875rem; /* 14px / 16 */
+}
+
+.time-format-container, .practice-mode-container{
+    margin-left: 1.5rem; /* 24px / 16 */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content:center;
+    gap: 2rem; /* 32px / 16 */
+}
+.practice-mode-container{
+    margin-bottom: 2.5rem; /* 40px / 16 */
+}
+
+.lr-container{
+    display:flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content:flex-end;
+    gap: 0.875rem; /* 14px / 16 */
+}
+
+.lr-container label{
+    font-size: 1.125rem; /* 18px / 16 */
+    font-family: Righ;
 }

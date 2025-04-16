@@ -1,18 +1,23 @@
 @font-face {
-  font-family: 'Righ';
-  src: url('../../assets/fonts/Righteous/Righteous-Regular.ttf') format('truetype');
+    font-family: 'Righ';
+    src: url('../../assets/fonts/Righteous/Righteous-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Mono';
-  src: url('../../assets/fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
+    font-family: 'Mono';
+    src: url('../../assets/fonts/Space_Mono/SpaceMono-Regular.ttf') format('truetype');
 }
 @font-face {
-  font-family: 'Unifrak';
-  src: url('../../assets/fonts/UnifrakturCook/UnifrakturCook-Bold.ttf') format('truetype');
+    font-family: 'Unifrak';
+    src: url('../../assets/fonts/UnifrakturCook/UnifrakturCook-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Orbi';
+    src: url('../../assets/fonts/Orbitron/Orbitron-VariableFont_wght.ttf') format('truetype');
 }
 
 :root{
-/* ******************* colors ***************** */
+    /* ******************* colors ***************** */
     --yellow:#F1CF28;
     --light-yellow:#F4E657;
     --blue:#877BFF;
@@ -21,74 +26,76 @@
     --light-green:#4FF7B0;
     --red:#FF4665;
     --light-red:#FF7A91;
-    
+
+    --light-gary: #E6E6E6;
+    --dark-gary: #303030;
 
     --off-white: #E5E5E5;
     --white: #FFFFFF;
     --black: #000000;
     --gray: #A6A6A6;
-
+    --accent-gray: var(--light-gray);
     --primary-color: var(--off-white);
     --secondary-color: var(--black);
 }
 
 /* Default for very large screens (8K and above) */
 html {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 /* 8K screens (max-width: 7680px) */
 @media (max-width: 7680px) {
-  html {
-    font-size: 22px;
-  }
+    html {
+        font-size: 32px;
+    }
 }
 
 /* Slightly smaller screens */
 @media (max-width: 6000px) {
-  html {
-    font-size: 21px;
-  }
+    html {
+        font-size: 30px;
+    }
 }
 
 /* 4K screens */
 @media (max-width: 4800px) {
-  html {
-    font-size: 20px;
-  }
+    html {
+        font-size: 28px;
+    }
 }
 
 /* High-resolution desktops */
 @media (max-width: 3600px) {
-  html {
-    font-size: 19px;
-  }
+    html {
+        font-size: 26px;
+    }
 }
 
 /* Wide monitors / ultrawide */
 @media (max-width: 2560px) {
-  html {
-    font-size: 18px;
-  }
+    html {
+        font-size: 24px;
+    }
 }
 
 /* Standard large desktop screens */
 @media (max-width: 1920px) {
-  html {
-    font-size: 17px;
-  }
+    html {
+        font-size: 17px;
+    }
 }
 
 /* Smaller desktops/laptops – letting the font be set to 16px here */
 @media (max-width: 1440px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 @media  (max-width: 900px){
     html{
-    font-size: 14px;
+        font-size: 14px;
     }
 }
 
@@ -96,21 +103,22 @@ html {
 
 /* Medium screens */
 @media (max-width: 720px) {
-  html {
-    font-size: 13px;
-  }
+    html {
+        font-size: 13px;
+    }
 }
 
 /* Small devices */
 @media (max-width: 375px) {
-  html {
-    font-size: 12px;
-  }
+    html {
+        font-size: 12px;
+    }
 }
 
 
 @media (prefers-color-scheme: dark) {
     :root {
+        --accent-gray: var(--dark-gary);
         --primary-color: var(--black);
         --secondary-color: var(--off-white);
     }
@@ -136,12 +144,25 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: min(2.25rem, 3.125vw);
-    padding-inline: min(2.25rem, 3.125vw) ;
+    padding-block: max(2rem, 3.125vw);
+    padding-inline: max(2rem, 3.125vw) ;
+}
+
+.homepage-link{
+    font-family: Unifrak;
+    font-size: 2rem;
+    text-decoration:none;
+    color: var(--secondary-color);
+    height: 2.5rem;
+}
+
+#setting-btn{
+    display: grid; 
+    place-content: center;
 }
 
 #setting-btn img{
- width: 2rem;
- height: 2rem;
- object-fit: cover;
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
 }
