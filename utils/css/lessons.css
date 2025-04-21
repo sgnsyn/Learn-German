@@ -1,5 +1,5 @@
 nav {
-    margin-bottom: max(2rem, calc(4.25rem - min(2rem, 3.125vw)));
+    margin-bottom: 1rem; 
 }
 .main-container {
     padding-inline: max(2rem, 3.125vw);
@@ -20,4 +20,10 @@ input[type="radio"]:checked {
   outline: 0.09375rem solid var(--primary-color); /* 1.5px / 16 */
   border-color: var(--accent-color);
   outline-offset: -0.1875rem; /* -3px / 16 */
+}
+
+@media(max-width: 900px){
+    .sidebar{
+        display:none;
+    }
 }
