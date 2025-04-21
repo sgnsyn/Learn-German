@@ -3,8 +3,10 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./learn.css">
         <script src="./script.js" defer></script>
+        <script src="../../utils/js/lessons/nav-switch.js" defer></script>
         <title>Wie spät ist es?</title>
     </head>
     <body>
@@ -24,50 +26,93 @@
             </div>
             <div class="content-container">
                 <div class="lp-nav">
-                    <button class="lp-nav-btn active">Practice</button>
-                    <button class="lp-nav-btn">Learn</button>
+                    <button class="lp-nav-btn active" id = "prac-btn">Practice</button>
+                    <button class="lp-nav-btn" id = "learn-btn">Learn</button>
                 </div>
-                <div class="time-container">
+                <div class="practice-section disabled">
                     <p class="time">09:03</p>
-                </div>
-                <div class="answer-reset-container">
-                    <div class="answer-container">
-                        <span>Es ist</span>
-                        <input id="asnwer-input" type="text">
-                        <span>.</span>
+                    <div class="answer-reset-container">
+                        <div class="answer-container">
+                            <span>Es ist</span>
+                            <input id="asnwer-input" type="text">
+                            <span>.</span>
+                        </div>
+                        <button id="reset-btn" class="proper-btn">Reset</button>
                     </div>
-                    <button id="reset-btn" class="proper-btn">Reset</button>
+
+                    <div class="config-container">
+                        <!-- new -->
+                        <div>
+                            <p class="format-label label"> Time Format</p>
+                            <div class="time-format-container">
+                                <div class="format-container lr-container 12hr">
+                                    <label for="12hr-radio">12 Hr</label>
+                                    <input type="radio" name = "format-radio" id  = "12hr-radio" checked >
+                                </div>
+                                    <div class="format-container lr-container 24hr">
+                                        <label for="24hr-radio">24 Hr</label>
+                                        <input type="radio" name = "format-radio" id = "24hr-radio">
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- new 2 -->
+                        <div>
+                            <p class="mode-label label">Time Telling</p>
+                            <div class="practice-mode-container">
+                                <div class="mode-container lr-container formal">
+                                    <label for="formal-radio">Formal</label>
+                                    <input type="radio" name = "mode-radio" id = "formal-radio" checked>
+                                </div>
+                                <div class="mode-container lr-container casual">
+                                    <label for="casual-radio">Casual</label>
+                                    <input type="radio" name = "mode-radio"  id  = "casual-radio">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- new end -->
+                    </div>
                 </div>
-                <div class="config-container">
-        <!-- new -->
-        <div>
-            <p class="format-label label"> Time Format</p>
-            <div class="time-format-container">
-                <div class="format-container lr-container 12hr">
-                    <label for="12hr-radio">12 Hr</label>
-                    <input type="radio" name = "format-radio" id  = "12hr-radio" checked >
-                </div>
-                <div class="format-container lr-container 24hr">
-                    <label for="24hr-radio">24 Hr</label>
-                    <input type="radio" name = "format-radio" id = "24hr-radio">
-                </div>
-            </div>
-        </div>
-        <!-- new 2 -->
-        <div>
-            <p class="mode-label label">Time Telling</p>
-            <div class="practice-mode-container">
-                <div class="mode-container lr-container formal">
-                    <label for="formal-radio">Formal</label>
-                    <input type="radio" name = "mode-radio" id = "formal-radio" checked>
-                </div>
-                <div class="mode-container lr-container casual">
-                    <label for="casual-radio">Casual</label>
-                    <input type="radio" name = "mode-radio"  id  = "casual-radio">
-                </div>
-            </div>
-        </div>
-        <!-- new end -->
+                
+                <!-- learn section -->
+                <div class="learn-section ">
+                    <p class="time">09:03</p>
+                        <!-- new -->
+                        <div>
+                            <div class="time-format-container">
+                                <div class="format-container lr-container 12hr">
+                                    <label for="12hr-radio">12 Hr</label>
+                                    <input type="radio" name = "format-radio" id  = "12hr-radio" checked >
+                                </div>
+                                    <div class="format-container lr-container 24hr">
+                                        <label for="24hr-radio">24 Hr</label>
+                                        <input type="radio" name = "format-radio" id = "24hr-radio">
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- new 2 -->
+                        <div class="telling-container">
+                            <p class="casual-telling">
+                            <span class="telling-title">Formal: </span>
+                            <span class="telling-text">ES ist Siebenunddreizig Minuten vor zwei.</span>
+                            </p>
+                            <p class="formal-telling">
+                            <span class="telling-title">Casual: </span>
+                            <span class="telling-text">ES ist Siebenunddreizig Minuten vor zwei.</span>
+                            </p>
+                        </div>
+                        <div class="lesson-container">
+                            <h2 class="para-title">How to Ask for the Time</h2>
+                            <p class="lesson-para">When you want to know what time it is, a polite way to ask is by saying, “What time is it?” You can also use variations like “Do you have the time?” or “Could you tell me the time, please?” These phrases are commonly used in everyday conversations, and adding “please” makes the request more courteous. </p>
+                            <p class="lesson-para">
+                            When speaking informally with friends, you might say something like “Got the time?” It's important to use a friendly tone and make eye contact if you’re asking in person.
+                            </p>
+
+                            <h2 class="para-title">How to Tell the Time</h2>
+                            <p class="lesson-para">To tell the time, you usually say the hour first, followed by the minutes. For example, if the clock shows 3:15, you would say “It’s three fifteen.” If it’s exactly on the hour, like 4:00, you can say “It’s four o’clock.”  </p>
+                            <p class="lesson-para">
+                            For times with 30 minutes, you can say “It’s half past four,” and for 15 minutes, “It’s quarter past four” or “It’s quarter to five,” depending on whether it's 15 minutes after or before the hour. Using “a.m.” and “p.m.” helps clarify if it's morning or afternoon, especially when it’s not obvious.                            </p>
+
+                        </div>
                 </div>
             </div>
         </div>

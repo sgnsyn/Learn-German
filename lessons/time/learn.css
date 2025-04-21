@@ -1,0 +1,47 @@
+.learn-section{
+    margin-bottom: 2rem;
+}
+.learn-section .time-format-container{
+    margin-bottom: 3.8rem;
+}
+
+
+
+.telling-container, .lesson-container{
+    display: grid;
+    place-content: center;
+}
+
+.telling-container p{
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 100%;
+}
+.telling-container .telling-title{
+    font-size: 1rem;
+    color: var(--secondary-color);
+    font-family: Righ;
+    width: 8ch;
+    margin-right:1rem;
+}
+.telling-container .telling-text{
+    font-size: 1rem;
+    color: var(--secondary-color);
+    font-family: mono;
+}
+
+.para-title{
+    font-size: 1rem;
+    color: var(--secondary-color);
+    font-family: Righ;
+    margin-block: .5rem 1rem;
+}
+
+.lesson-para{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: var(--secondary-color);
+    font-family: mono;
+    max-width: 86ch;
+    text-align: justify;
+}

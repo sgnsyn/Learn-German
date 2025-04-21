@@ -34,6 +34,7 @@
     --white: #FFFFFF;
     --black: #000000;
     --gray: #A6A6A6;
+
     --accent-gray: var(--light-gray);
     --primary-color: var(--off-white);
     --secondary-color: var(--black);
@@ -140,6 +141,9 @@ button:hover{
     cursor: pointer;
 }
 
+.disabled{
+    display: none !important; 
+}
 nav{
     display: flex;
     justify-content: space-between;

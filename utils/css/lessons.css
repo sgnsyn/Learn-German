@@ -22,7 +22,7 @@ input[type="radio"]:checked {
   outline-offset: -0.1875rem; /* -3px / 16 */
 }
 
-@media(max-width: 900px){
+@media(max-width: 1120px){
     .sidebar{
         display:none;
     }
