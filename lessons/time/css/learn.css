@@ -5,15 +5,44 @@
     margin-bottom: 3.8rem;
 }
 
+.time-input-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: .5rem;
+}
+
+.time-input {
+    text-align: center;
+    font-family:Orbi;
+    font-size: 5.625rem; /* 90px / 16 */
+    color: var(--accent-color);
+    margin-bottom: 1.25rem; /* 20px / 16 */
+    background-color: transparent;
+    border:none;
+    width: 2ch;
+    padding-block: .5rem;
+}
+span.time-input{
+    width: 1ch;
+}
+
+.time-input:focus{
+    outline: 0.0625rem solid var(--accent-color);
+    outline-offset: 0.125rem;
+}
 
 
+.telling-container{
+    margin-bottom: 2rem;
+}
 .telling-container, .lesson-container{
     display: grid;
     place-content: center;
 }
 
 .telling-container p{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     text-align: left;
     width: 100%;
 }
@@ -31,14 +60,14 @@
 }
 
 .para-title{
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--secondary-color);
     font-family: Righ;
     margin-block: .5rem 1rem;
 }
 
 .lesson-para{
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
     color: var(--secondary-color);
     font-family: mono;

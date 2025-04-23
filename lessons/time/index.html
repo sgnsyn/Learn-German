@@ -4,9 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./style.css" />
-        <link rel="stylesheet" href="./learn.css">
-        <script src="./script.js" defer></script>
-        <script src="../../utils/js/lessons/nav-switch.js" defer></script>
+        <link rel="stylesheet" href="./css/practice.css">
+        <link rel="stylesheet" href="./css/learn.css">
         <title>Wie spät ist es?</title>
     </head>
     <body>
@@ -29,8 +28,9 @@
                     <button class="lp-nav-btn active" id = "prac-btn">Practice</button>
                     <button class="lp-nav-btn" id = "learn-btn">Learn</button>
                 </div>
-                <div class="practice-section ">
+                <div class="practice-section disabled">
                     <p class="time">09:03</p>
+
                     <div class="answer-reset-container">
                         <div class="answer-container">
                             <span>Es ist</span>
@@ -75,7 +75,11 @@
                 
                 <!-- learn section -->
                 <div class="learn-section disabled">
-                    <p class="time">09:03</p>
+                    <div class="time-input-container">
+                        <input id="hour-input"  class = "time-input" type="number" max="23" min = "0" value = "22">
+                        <span class="time-input">:</span>
+                        <input id = "minute-input" class= "time-input" type="number" max="59" min = "0" value = "02">
+                    </div>
                         <!-- new -->
                         <div>
                             <div class="time-format-container">
@@ -116,5 +120,10 @@
                 </div>
             </div>
         </div>
+
+        <!-- *************************** scripts ********************** -->
+        <script src="./script.js" defer></script>
+        <script src="../../utils/js/lessons/nav-switch.js" defer></script>
+        <script src = "../time/js/practice.js"></script>
     </body>
 </html>

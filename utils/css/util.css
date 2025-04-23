@@ -40,6 +40,16 @@
     --secondary-color: var(--black);
 }
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* For Firefox */
+}
+
 /* Default for very large screens (8K and above) */
 html {
     font-size: 24px;
