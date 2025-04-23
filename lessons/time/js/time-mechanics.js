@@ -70,6 +70,7 @@ function handleTimeMechanics(btn, hourInput, minuteInput){
     let holdTimeout;
 
     btn.addEventListener('click', handleInc);
+    btn.addEventListener('touchstart', handleInc);
 
     btn.addEventListener('mousedown', (event) => {
         holdTimeout = setTimeout(() => {
@@ -97,7 +98,7 @@ function handleTimeMechanics(btn, hourInput, minuteInput){
             holdInterval = setInterval(() => {
                 handleInc(event); 
             }, 100);
-        }, 200);
+        }, 400);
     });
 
     btn.addEventListener('touchend', () => {
