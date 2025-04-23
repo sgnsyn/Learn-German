@@ -1,40 +1,55 @@
-.learn-section{
+.learn-section {
     margin-bottom: 2rem;
-}
-.learn-section .time-format-container{
-    margin-bottom: 3.8rem;
 }
 
 .time-input-container{
     display: flex;
-    align-items: center;
     justify-content:center;
-    gap: .5rem;
+    gap:1rem;
+    margin-bottom: 2rem; /* 20px / 16 */
 }
-
-.time-input {
+.learn-time{
     text-align: center;
     font-family:Orbi;
     font-size: 5.625rem; /* 90px / 16 */
     color: var(--accent-color);
-    margin-bottom: 1.25rem; /* 20px / 16 */
-    background-color: transparent;
-    border:none;
-    width: 2ch;
-    padding-block: .5rem;
-}
-span.time-input{
-    width: 1ch;
 }
 
-.time-input:focus{
-    outline: 0.0625rem solid var(--accent-color);
-    outline-offset: 0.125rem;
+p.learn-time {
+    width: 2ch;
 }
+
+
+.inc-btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+.inc-btn{
+    padding: .75rem;
+    display: grid;
+    border-radius: .25rem;
+    place-content:center;
+    font-size: 1.5rem;
+    width: 1ch;
+    height: 1ch;
+    font-family: mono;
+    background-color: var(--accent-gray);
+    color: var(--accent-color);
+    box-sizing: content-box;
+}
+
+.inc-btn:hover{
+    background-color: var(--hover-gray);
+}
+
+
 
 
 .telling-container{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 .telling-container, .lesson-container{
     display: grid;

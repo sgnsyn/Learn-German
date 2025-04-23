@@ -1,16 +1,15 @@
-const hourInput =document.getElementById("hour-input")
+const hourInput = document.getElementById("hour-input")
 const minuteInput = document.getElementById('minute-input')
+const incBtns = document.querySelectorAll(".inc-btn")
+
+incBtns.forEach(btn => {
+    handleTimeMechanics(btn, hourInput, minuteInput)
+});
+
+setInterval(()=>{
+    let time = `${hourInput.textContent}:${minuteInput.textContent}`
+    console.log(time)
+}, 1000)
 
 
 
-function inputFormatHandler(event){
-    const input = event.target
-    const value = input.value
-
-    if (value.length == 1){
-        input.value = `0${value}`
-    }
-}
-
-hourInput.addEventListener("change", inputFormatHandler)
-minuteInput.addEventListener("change", inputFormatHandler)
