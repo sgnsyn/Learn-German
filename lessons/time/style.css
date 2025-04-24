@@ -47,7 +47,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 3.5625rem; /* 57px / 16 */
-    margin-bottom: 3.625rem; /* 58px / 16 */
+    margin-bottom: 3rem; /* 58px / 16 */
 }
 .lp-nav-btn{
     font-family: Righ;

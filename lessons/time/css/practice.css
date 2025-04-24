@@ -1,9 +1,9 @@
 .practice-time{
     text-align: center;
     font-family:Orbi;
-    font-size: 5.625rem; /* 90px / 16 */
+    font-size: 5.625rem; 
     color: var(--accent-color);
-    margin-bottom: 1.25rem; /* 20px / 16 */
+    margin-bottom: 1.25rem; 
 }
 
 
@@ -12,8 +12,8 @@
     flex-direction:column;
     align-items: center;
     justify-content: center;
-    gap: 1rem; /* 16px / 16 */
-    margin-bottom: 5rem; /* 62px / 16 */
+    gap: 1rem; 
+    margin-bottom: 5rem; 
 }
 .answer-container{
     display: flex;
@@ -21,14 +21,14 @@
     gap: 2ch;
 }
 .answer-container input{
-    padding: 0.75rem 0.5rem; /* 12px 8px / 16 */
+    padding: 0.75rem 0.5rem; 
     font-family: Mono;
     font-weight: bold;
     font-size: 1rem;
     background-color: var(--accent-gray) ;
     color: var(--secondary-color);
     border: none;
-    border-radius: 0.5625rem; /* 9px / 16 */
+    border-radius: 0.5625rem; 
 }
 
 .answer-container input:focus{
@@ -46,8 +46,8 @@
     background-color: var(--accent-color);
     color: var(--black);
     font-family:righ; 
-    font-size: 1rem; /* Fixed 16p to 1rem */
-    padding: 0.5rem 1rem; /* 8px 16px / 16 */
+    font-size: 1rem; 
+    padding: 0.5rem 1rem; 
     border-radius: 100vw;
     width: fit-content;
 }
@@ -57,29 +57,27 @@
 }
 .config-container{
    display:grid;
-   grid-template-columns: repeat(auto-fit, 15.625rem); /* 250px / 16 */
+   grid-template-columns: repeat(auto-fit, 15.625rem); 
    justify-content: center;
-   column-gap: 4rem; /* 84px / 16 */
-   row-gap: 1.5rem; /* 38px / 16 */
+   column-gap: 4rem; 
+   row-gap: 1.5rem; 
 }
 
 p.label{
-    font-size: 1rem; /* 16px / 16 */
+    font-size: 1rem; 
     font-family: righ;
     color: var(--secondary-color) ;
-    margin-bottom: 0.875rem; /* 14px / 16 */
+    margin-bottom: 0.875rem; 
 }
 
 .time-format-container, .practice-mode-container{
-    margin-left: 1.5rem; /* 24px / 16 */
+    margin-left: 2rem; 
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content:center;
-    gap: 2rem; /* 32px / 16 */
+    gap: 2rem; 
 }
 .practice-mode-container{
-    margin-bottom: 2.5rem; /* 40px / 16 */
+    margin-bottom: 2.5rem; 
 }
 
 .lr-container{
@@ -87,10 +85,10 @@ p.label{
     align-items: center;
     flex-direction: row-reverse;
     justify-content:flex-end;
-    gap: 0.875rem; /* 14px / 16 */
+    gap: 0.875rem; 
 }
 
 .lr-container label{
-    font-size: 1.125rem; /* 18px / 16 */
+    font-size: 1.125rem; 
     font-family: Righ;
 }

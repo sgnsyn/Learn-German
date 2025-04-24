@@ -6,10 +6,6 @@ incBtns.forEach(btn => {
     handleTimeMechanics(btn, hourInput, minuteInput)
 });
 
-setInterval(()=>{
-    let time = `${hourInput.textContent}:${minuteInput.textContent}`
-    console.log(time)
-}, 1000)
 
 
 
