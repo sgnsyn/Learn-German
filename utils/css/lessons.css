@@ -34,7 +34,7 @@ input[type="radio"]:checked {
 
 .mobile-sidebar{
     background-color: var(--primary-color);
-    padding-top : 17vh;
+    padding-top : 10vh;
     height: 100vh;
     width: 100vw;
 
@@ -50,10 +50,10 @@ input[type="radio"]:checked {
 
 .mobile-sidebar .side-title{
     margin-top: max(4rem, 6.23rem);
-    font-size : 3rem;
+    font-size : 2.5rem;
 }
 .mobile-sidebar .lessons-link{
-    font-size : 2rem;
+    font-size : 1.5rem;
 }
 
 #close-nav-btn{
