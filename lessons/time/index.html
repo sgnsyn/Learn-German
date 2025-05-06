@@ -11,9 +11,14 @@
   <body>
     <nav>
       <a class="homepage-link" href="../../index.html">Learn German</a>
-      <button id="setting-btn">
-        <img src="../../assets/icons/settings.svg" alt="setting icon" />
-      </button>
+      <div class ="menu-theme-container">
+          <button id="theme-btn" class = "nav-icon">
+              <img src="../../assets/icons/sun.svg" alt="setting icon" />
+          </button>
+          <button id="menu-btn" class = "nav-icon">
+              <img src="../../assets/icons/menu.svg" alt="setting icon" />
+          </button>
+      </div>
     </nav>
     <div class="main-container">
       <div class="sidebar">
@@ -31,14 +36,15 @@
           <button class="lp-nav-btn" id="learn-btn">Learn</button>
         </div>
         <div class="practice-section">
-          <p class="practice-time">09:03</p>
+          <p id ="practice-time" class="practice-time">09:03</p>
 
           <div class="answer-reset-container">
             <div class="answer-container">
               <span>Es ist</span>
-              <input id="asnwer-input" type="text" />
+              <input id="answer-input" type="text" autocomplete="off"/>
               <span>.</span>
             </div>
+            <p id="correction-p" class ="error-green error-msg"></p>
             <button id="reset-btn" class="proper-btn">Reset</button>
           </div>
 
@@ -204,10 +210,25 @@
         </div>
       </div>
     </div>
+    
+    <!-- Mobile sidebar -->
+    <div class="mobile-sidebar disabled">
+          <button id="close-nav-btn" class = "nav-icon">
+              <img src="../../assets/icons/close.svg" alt="setting icon" />
+          </button>
+        <p class="side-title">Lessons</p>
+        <div class="lessons-list">
+            <p class="lessons-link active">Time</p>
+            <a class="lessons-link" href="#">Numbers</a>
+            <a class="lessons-link" href="#">Phoneme</a>
+            <a class="lessons-link" href="#">Date</a>
+        </div>
+    </div>
     <!-- *************************** scripts ********************** -->
     <script src="./script.js" defer></script>
     <script src="../../utils/js/lessons/nav-switch.js" defer></script>
     <script src="../time/js/time-mechanics.js"></script>
-    <script src="../time/js/practice.js"></script>
+    <script src="../time/js/practice.js" type="module"></script>
+    <script src="../time/js/learn.js"></script>
   </body>
 </html>

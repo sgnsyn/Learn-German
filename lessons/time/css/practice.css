@@ -17,6 +17,7 @@
 }
 .answer-container{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 2ch;
 }
@@ -29,11 +30,13 @@
     color: var(--secondary-color);
     border: none;
     border-radius: 0.5625rem; 
+    box-sizing: content-box;
 }
 
+
 .answer-container input:focus{
-    outline: 0.0625px solid var(--accent-color);
-    outline-offset: 0.125rem;
+    outline: 0.0625rem solid var(--accent-color);
+    outline-offset: 0.25rem;
 }
 
 .answer-container span{
@@ -42,6 +45,12 @@
     font-size: 1rem;
 }
 
+#correction-p{
+    font-family: Mono;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 2ch;
+}
 .proper-btn{
     background-color: var(--accent-color);
     color: var(--black);
@@ -53,7 +62,7 @@
 }
 .proper-btn:focus{
     outline: 0.0625rem solid var(--accent-color);
-    outline-offset: 0.125rem;
+    outline-offset: 0.25rem;
 }
 .config-container{
    display:grid;

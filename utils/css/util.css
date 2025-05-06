@@ -17,6 +17,11 @@
 }
 
 :root{
+    /* ******************* error colors ***************** */
+    --error-red : #d50000;
+    --error-yellow: #ffd600;
+    --error-green: #00c853;
+
     /* ******************* colors ***************** */
     --yellow:#F1CF28;
     --light-yellow:#F4E657;
@@ -42,6 +47,9 @@
     --hover-gray: var(--dark-hover-gray);
     --primary-color: var(--off-white);
     --secondary-color: var(--black);
+
+
+
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -108,6 +116,12 @@ html {
     }
 }
 
+@media (max-width: 1200px) {
+    html {
+        font-size: 15px;
+    }
+}
+
 @media  (max-width: 900px){
     html{
         font-size: 14px;
@@ -158,12 +172,44 @@ button:hover{
 .disabled{
     display: none !important; 
 }
+
+ .error-red.error-msg{
+    color: var(--error-red)
+}
+.error-green.error-msg{
+    color: var(--error-green)
+}
+ .error-yellow.error-msg{
+    color: var(--error-yellow)
+}
+
+ input.error-red.error-msg{
+    color: var(--error-red);
+    outline: 0.0625rem solid var(--error-red);
+    outline-offset: 0.25rem;
+}
+ input.error-green.error-msg{
+    color: var(--error-green);
+    outline: 0.0625rem solid var(--error-green);
+    outline-offset: 0.25rem;
+}
+ input.error-yellow.error-msg{
+    color: var(--error-yellow);
+    outline: 0.0625rem solid var(--error-yellow);
+    outline-offset: 0.25rem;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: max(2rem, 3.125vw);
+    padding-block: min(1.5rem, 3.125vw);
     padding-inline: max(2rem, 3.125vw) ;
+}
+ 
+.menu-theme-container{
+    display: flex;
+    gap: 2rem;
 }
 
 .homepage-link{
@@ -174,13 +220,15 @@ nav{
     height: 2.5rem;
 }
 
-#setting-btn{
+.nav-icon{
     display: grid; 
     place-content: center;
 }
 
-#setting-btn img{
-    width: 2rem;
-    height: 2rem;
+.nav-icon img{
+    width: 1.85rem;
+    height: 1.85rem;
     object-fit: cover;
 }
+
+
