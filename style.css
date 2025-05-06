@@ -29,6 +29,7 @@ body{
     height: 24.75rem; /* 396px / 16 */
     border-radius:1rem;
     background-color: var(--card-color-1);
+    position: relative;
 }
 .card .top-container{
     background-color: var(--card-color-2);
@@ -115,5 +116,31 @@ body{
 
 .date-card .top-container{
     font-size: 3rem; /* 48px / 16 */
+}
+
+.card.coming-soon::before{
+    content: "Coming Soon";
+    font-size: .75rem;
+    font-family: mono;
+    text-align: center;
+    position: absolute;
+    background-color: var(--card-color-2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 4rem;
+    height: 4rem;
+
+    border-radius: 50%;
+    border: 0.0625rem dotted var(--primary-color);
+    outline : 0.0625rem solid var(--primary-color);
+    outline-offset: 0.125rem;
+
+    top: .5rem;
+    right:.5rem;
+
+    transform: rotate(-45deg);
 }
 

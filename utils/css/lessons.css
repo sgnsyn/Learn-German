@@ -33,17 +33,29 @@ input[type="radio"]:checked {
 }
 
 .mobile-sidebar{
-    padding-top: max(4rem, 6.25rem);
+    background-color: var(--primary-color);
+    padding-top : 17vh;
+    height: 100vh;
+    width: 100vw;
+
     position: fixed; 
     top: 0;
     left: 0;
-    background-color: var(--primary-color);
-    height: 100vh;
-    width: 100vw;
+    
+
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+.mobile-sidebar .side-title{
+    margin-top: max(4rem, 6.23rem);
+    font-size : 3rem;
+}
+.mobile-sidebar .lessons-link{
+    font-size : 2rem;
+}
+
 #close-nav-btn{
     position: absolute;
     top:max(2rem, 3.125vw);
