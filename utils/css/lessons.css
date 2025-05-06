@@ -41,7 +41,6 @@ input[type="radio"]:checked {
     position: fixed; 
     top: 0;
     left: 0;
-    
 
     display: flex;
     flex-direction: column;
@@ -49,7 +48,6 @@ input[type="radio"]:checked {
 }
 
 .mobile-sidebar .side-title{
-    margin-top: max(4rem, 6.23rem);
     font-size : 2.5rem;
 }
 .mobile-sidebar .lessons-link{

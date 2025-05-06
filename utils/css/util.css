@@ -32,8 +32,8 @@
     --red:#FF4665;
     --light-red:#FF7A91;
 
-    --light-gary: #E6E6E6;
-    --dark-gary: #303030;
+    --light-gray: #d5d5d5;
+    --dark-gray: #303030;
 
     --light-hover-gary: #f6f6f6;
     --dark-hover-gray: #424242;
@@ -43,14 +43,11 @@
     --black: #000000;
     --gray: #A6A6A6;
 
-    --accent-gray: var(--light-gray);
-    --hover-gray: var(--dark-hover-gray);
-    --primary-color: var(--off-white);
-    --secondary-color: var(--black);
-
-
-
+    --accent-gray: var(--dark-gray);
+    --primary-color: var(--black);
+    --secondary-color: var(--off-white);
 }
+
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
@@ -145,13 +142,6 @@ html {
 }
 
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --accent-gray: var(--dark-gary);
-        --primary-color: var(--black);
-        --secondary-color: var(--off-white);
-    }
-}
 
 
 * {
