@@ -1,3 +1,9 @@
+.practice-section{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
 .practice-time{
     text-align: center;
     font-family:Orbi;
@@ -13,7 +19,7 @@
     align-items: center;
     justify-content: center;
     gap: 1rem; 
-    margin-bottom: 5rem; 
+    margin-bottom: 4rem; 
 }
 .answer-container{
     display: flex;
@@ -42,7 +48,7 @@
 .answer-container span{
     font-family: Mono;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #correction-p{
@@ -50,6 +56,7 @@
     font-weight: bold;
     font-size: 1rem;
     height: 2ch;
+    margin-block: 1rem;
 }
 .proper-btn{
     background-color: var(--accent-color);
@@ -65,6 +72,7 @@
     outline-offset: 0.25rem;
 }
 .config-container{
+    align-self: flex-start;
    display:grid;
    grid-template-columns: repeat(auto-fit, 15.625rem); 
    justify-content: center;
@@ -73,20 +81,19 @@
 }
 
 p.label{
-    font-size: 1rem; 
+    font-size: 1.1rem; 
     font-family: righ;
     color: var(--secondary-color) ;
-    margin-bottom: 0.875rem; 
+    margin-bottom: 1.875rem; 
 }
 
-.time-format-container, .practice-mode-container{
+.practice-mode-container{
     margin-left: 2rem; 
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem; 
-}
-.practice-mode-container{
+    gap: 1.5rem; 
     margin-bottom: 2.5rem; 
+    width: fit-content;
 }
 
 .lr-container{
@@ -98,6 +105,6 @@ p.label{
 }
 
 .lr-container label{
-    font-size: 1.125rem; 
+    font-size: 1rem; 
     font-family: Righ;
 }

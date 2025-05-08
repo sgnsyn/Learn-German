@@ -72,9 +72,15 @@ input[type="radio"]:checked {
 
 .mobile-sidebar .lessons-link{
     font-size : 1.2rem;
+    text-decoration: underline;
+}
+.mobile-sidebar .lessons-link.active{
+    text-decoration: none;
 }
 .mobile-sidebar .lessons-list{
     padding: 0;
+    gap: 2.2rem;
+
 }
 
 #close-nav-btn{

@@ -8,6 +8,7 @@ function normalize(str) {
       .toLowerCase()
       .replace(/ue/g, 'ü')
       .replace(/oe/g, 'ö')
+      .replace(/o/g, 'ö')
       .replace(/ae/g, 'ä')
       .replace(/u/g, 'ü') // catch "funf" -> "fünf"
       .replace(/oe/g, 'ö')
