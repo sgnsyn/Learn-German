@@ -115,13 +115,17 @@ export function getUnofficialTime(timeStr) {
             // Rule B
             exactMinAfter(m, '');
             variants.add(`ungefähr ${numMap[0]} Minuten nach ${hrWord}`);
+            variants.add(`${numMap[0]} Minuten nach ${hrWord}`);
             variants.add(`ungefähr fünf nach ${hrWord}`);
+            variants.add(`fünf nach ${hrWord}`);
             variants.add(`kurz nach ${hrWord}`);
         } else if (m < 10) {
             // Rule C-like
             exactMinAfter(m, 'zehn');
             variants.add(`ungefähr fünf nach ${hrWord}`);
+            variants.add(`fünf nach ${hrWord}`);
             variants.add(`ungefähr zehn nach ${hrWord}`);
+            variants.add(`zehn nach ${hrWord}`);
         } else if (m === 10) {
             // 10 past
             variants.add(`zehn nach ${hrWord}`);
@@ -130,14 +134,18 @@ export function getUnofficialTime(timeStr) {
             // between 10 and 15
             exactMinAfter(m, 'fünf');
             variants.add(`ungefähr zehn nach ${hrWord}`);
+            variants.add(`zehn nach ${hrWord}`);
             variants.add(`ungefähr Viertel nach ${hrWord}`);
+            variants.add(`Viertel nach ${hrWord}`);
         } else if (m === 15) {
             variants.add(`fünfzehn nach ${hrWord}`);
             variants.add(`fünfzehn Minuten nach ${hrWord}`);
             variants.add(`Viertel nach ${hrWord}`);
         } else if (m < 20) {
             exactMinAfter(m, 'zwanzig');
+            variants.add(`Viertel nach ${hrWord}`);
             variants.add(`ungefähr Viertel nach ${hrWord}`);
+            variants.add(`zwanzig nach ${hrWord}`);
             variants.add(`ungefähr zwanzig nach ${hrWord}`);
         } else if (m === 20) {
             variants.add(`zwanzig nach ${hrWord}`);
@@ -145,7 +153,9 @@ export function getUnofficialTime(timeStr) {
         } else if (m < 25) {
             exactMinAfter(m, 'fünf');
             variants.add(`ungefähr zwanzig nach ${hrWord}`);
+            variants.add(`zwanzig nach ${hrWord}`);
             variants.add(`ungefähr fünfundzwanzig nach ${hrWord}`);
+            variants.add(`fünfundzwanzig nach ${hrWord}`);
         } else if (m === 25) {
             variants.add(`fünfundzwanzig nach ${hrWord}`);
             variants.add(`fünfundzwanzig Minuten nach ${hrWord}`);
@@ -171,14 +181,18 @@ export function getUnofficialTime(timeStr) {
         } else if (diff < 10) {
             exactMinBefore(diff, 'zehn');
             variants.add(`ungefähr fünf vor ${nextHrWord}`);
+            variants.add(`fünf vor ${nextHrWord}`);
             variants.add(`ungefähr zehn vor ${nextHrWord}`);
+            variants.add(`zehn vor ${nextHrWord}`);
         } else if (diff === 10) {
             variants.add(`zehn vor ${nextHrWord}`);
             variants.add(`zehn Minuten vor ${nextHrWord}`);
         } else if (diff < 15) {
             exactMinBefore(diff, 'fünf');
             variants.add(`ungefähr zehn vor ${nextHrWord}`);
+            variants.add(`zehn vor ${nextHrWord}`);
             variants.add(`ungefähr Viertel vor ${nextHrWord}`);
+            variants.add(`Viertel vor ${nextHrWord}`);
         } else if (diff === 15) {
             variants.add(`fünfzehn vor ${nextHrWord}`);
             variants.add(`fünfzehn Minuten vor ${nextHrWord}`);
@@ -186,14 +200,18 @@ export function getUnofficialTime(timeStr) {
         } else if (diff < 20) {
             exactMinBefore(diff, 'zwanzig');
             variants.add(`ungefähr Viertel vor ${nextHrWord}`);
+            variants.add(`Viertel vor ${nextHrWord}`);
             variants.add(`ungefähr zwanzig vor ${nextHrWord}`);
+            variants.add(`zwanzig vor ${nextHrWord}`);
         } else if (diff === 20) {
             variants.add(`zwanzig vor ${nextHrWord}`);
             variants.add(`zwanzig Minuten vor ${nextHrWord}`);
         } else if (diff < 25) {
             exactMinBefore(diff, 'fünf');
             variants.add(`ungefähr zwanzig vor ${nextHrWord}`);
+            variants.add(`zwanzig vor ${nextHrWord}`);
             variants.add(`ungefähr fünfundzwanzig vor ${nextHrWord}`);
+            variants.add(`fünfundzwanzig vor ${nextHrWord}`);
         } else {
             variants.add(`fünfundzwanzig vor ${nextHrWord}`);
             variants.add(`fünfundzwanzig Minuten vor ${nextHrWord}`);

@@ -1,203 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./css/practice.css" />
-    <link rel="stylesheet" href="./css/learn.css" />
-    <title>Wie spät ist es?</title>
-  </head>
-  <body>
-    <nav>
-      <a class="homepage-link" href="../../index.html">Learn German</a>
-      <div class ="menu-theme-container">
-          <button id="menu-btn" class = "nav-icon">
-              <img src="../../assets/icons/menu.svg" alt="setting icon" />
-          </button>
-      </div>
-    </nav>
-    <div class="main-container">
-      <div class="sidebar">
-        <p class="side-title">Lessons</p>
-        <div class="lessons-list">
-            <p class="lessons-link active">Time</p>
-            <a class="lessons-link" href="../number/">Numbers</a>
-            <a class="lessons-link" href="../phoneme/">Phoneme</a>
-            <a class="lessons-link" href="../date/">Date</a>
-        </div>
-      </div>
-      <div class="content-container">
-        <div class="lp-nav">
-          <button class="lp-nav-btn active" id="prac-btn">Practice</button>
-          <button class="lp-nav-btn" id="learn-btn">Learn</button>
-        </div>
-        <div class="practice-section">
-          <p id ="practice-time" class="practice-time">09:03</p>
-
-          <div class="answer-reset-container">
-            <div class="answer-container">
-              <span>Es ist</span>
-              <input id="answer-input" type="text" autocomplete="off" lang="de" spellcheck="false"/>
-              <span>.</span>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link rel="stylesheet" href="./css/practice.css" />
+        <link rel="stylesheet" href="./css/learn.css" />
+        <title>Wie spät ist es?</title>
+    </head>
+    <body>
+        <nav>
+            <a class="homepage-link" href="../../index.html">Learn German</a>
+            <div class ="menu-theme-container">
+                <button id="menu-btn" class = "nav-icon">
+                    <img src="../../assets/icons/menu.svg" alt="setting icon" />
+                </button>
             </div>
-            <p id="correction-p" class ="error-green error-msg"></p>
-            <button id="reset-btn" class="proper-btn">Reset</button>
-          </div>
-
-          <div class="config-container">
-
-           <!-- ************ Time telling radio begin ******************  -->
-            <div>
-              <p class="mode-label label">Time Telling</p>
-              <div class="practice-mode-container">
-                <div class="mode-container lr-container formal">
-                  <label for="formal-radio">Official</label>
-                  <input
-                    type="radio"
-                    name="mode-radio"
-                    id="formal-radio"
-                    value= "of"
-                  />
+        </nav>
+        <div class="main-container">
+            <div class="sidebar">
+                <p class="side-title">Lessons</p>
+                <div class="lessons-list">
+                    <p class="lessons-link active">Time</p>
+                    <a class="lessons-link" href="../number/">Numbers</a>
+                    <a class="lessons-link" href="../phoneme/">Phoneme</a>
+                    <a class="lessons-link" href="../date/">Date</a>
                 </div>
-                <div class="mode-container lr-container casual">
-                  <label for="casual-radio">Colloquial</label>
-                  <input type="radio"   
-                  value= "co"
-                  name="mode-radio"
-                  id="casual-radio"
-                  />
+            </div>
+            <div class="content-container">
+                <div class="lp-nav">
+                    <button class="lp-nav-btn active" id="prac-btn">Practice</button>
+                    <button class="lp-nav-btn" id="learn-btn">Learn</button>
                 </div>
-              </div>
+                <div class="practice-section">
+                    <p id ="practice-time" class="practice-time">09:03</p>
+
+                    <div class="answer-reset-container">
+                        <div class="answer-container">
+                            <span>Es ist</span>
+                            <input id="answer-input" type="text" autocomplete="off" lang="de" spellcheck="false"/>
+                            <span>.</span>
+                        </div>
+                        <p id="correction-p" class ="error-green error-msg"></p>
+                        <button id="reset-btn" class="proper-btn">Reset</button>
+                    </div>
+
+                    <div class="config-container">
+
+                        <!-- ************ Time telling radio begin ******************  -->
+                        <div>
+                            <p class="mode-label label">Time Telling</p>
+                            <div class="practice-mode-container">
+                                <div class="mode-container lr-container formal">
+                                    <label for="formal-radio">Official</label>
+                                    <input
+                                    type="radio"
+                                    name="mode-radio"
+                                    id="formal-radio"
+                                    value= "of"
+                                    />
+                                </div>
+                                <div class="mode-container lr-container casual">
+                                    <label for="casual-radio">Colloquial</label>
+                                    <input type="radio"   
+                                    value= "co"
+                                    name="mode-radio"
+                                    id="casual-radio"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ************ Time telling radio end******************  -->
+                    </div>
+                </div>
+
+                <!-- learn section -->
+                <div class="learn-section disabled">
+                    
+                    <!-- *************** time learning begin**************** -->
+                    <div class="lesson-container">
+                        <h2 class="para-title">How to Ask for the Time</h2>
+                        <p class="lesson-para">
+                        When you want to know what time it is, a polite way to ask is by
+                        saying, “What time is it?” You can also use variations like “Do
+                        you have the time?” or “Could you tell me the time, please?” These
+                        phrases are commonly used in everyday conversations, and adding
+                        “please” makes the request more courteous.
+                        </p>
+                        <p class="lesson-para">
+                        When speaking informally with friends, you might say something
+                        like “Got the time?” It's important to use a friendly tone and
+                        make eye contact if you’re asking in person.
+                        </p>
+
+                        <h2 class="para-title">How to Tell the Time</h2>
+                        <p class="lesson-para">
+                        To tell the time, you usually say the hour first, followed by the
+                        minutes. For example, if the clock shows 3:15, you would say “It’s
+                        three fifteen.” If it’s exactly on the hour, like 4:00, you can
+                        say “It’s four o’clock.”
+                        </p>
+                        <p class="lesson-para">
+                        For times with 30 minutes, you can say “It’s half past four,” and
+                        for 15 minutes, “It’s quarter past four” or “It’s quarter to
+                        five,” depending on whether it's 15 minutes after or before the
+                        hour. Using “a.m.” and “p.m.” helps clarify if it's morning or
+                        afternoon, especially when it’s not obvious.
+                        </p>
+                    </div>
+                    <!-- *************** time learning end**************** -->
+
+                    <div class="time-input-container">
+                        <div class="hour-btn-container">
+                            <p id="hour-input" class="learn-time">09</p>
+                            <div class="inc-btn-container">
+                                <button
+                                    id="hour-dec"
+                                    data-name="hour"
+                                    data-op="min"
+                                    class="inc-btn dec"
+                                    >
+                                    −
+                                </button>
+                                    <button
+                                        id="hour-inc"
+                                        data-name="hour"
+                                        data-op="add"
+                                        class="inc-btn inc"
+                                        >
+                                        +
+                                    </button>
+                            </div>
+                        </div>
+                        <span class="learn-time">:</span>
+                        <div class="minute-btn-container">
+                            <p id="minute-input" class="learn-time">00</p>
+                            <div class="inc-btn-container">
+                                <button
+                                    id="hour-dec"
+                                    data-name="minute"
+                                    data-op="min"
+                                    class="inc-btn dec"
+                                    >
+                                    −
+                                </button>
+                                    <button
+                                        id="minute-inc"
+                                        data-name="minute"
+                                        data-op="add"
+                                        class="inc-btn inc"
+                                        >
+                                        +
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- *************** time telling begin **************** -->
+                    <div class="telling-container">
+                        <div class="df-telling co"> 
+                            <p class="format-title">COLLOQUIAL</p>
+                            <div class="co-time-inword" >
+                                <p class="telling casual-telling telling-text">
+                                ES ist Siebenunddreizig Minuten vor zwei.
+                                </p>
+                                <p class="telling casual-telling telling-text">
+                                ES ist Siebenunddreizig Minuten vor zwei.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="df-telling of">
+                            <p class="format-title">OFFICIAL</p>
+                            <div >
+                                <p class="telling casual-telling telling-text of-time-inword"/>
+                                ES ist Siebenunddreizig Minuten vor zwei.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- *************** time telling end**************** -->
+                </div>
             </div>
-           <!-- ************ Time telling radio end******************  -->
-          </div>
         </div>
 
-        <!-- learn section -->
-        <div class="learn-section disabled">
-          <div class="time-input-container">
-            <div class="hour-btn-container">
-              <p id="hour-input" class="learn-time">09</p>
-              <div class="inc-btn-container">
-                <button
-                  id="hour-inc"
-                  data-name="hour"
-                  data-op="add"
-                  class="inc-btn inc"
-                >
-                  +
-                </button>
-                <button
-                  id="hour-dec"
-                  data-name="hour"
-                  data-op="min"
-                  class="inc-btn dec"
-                >
-                  −
-                </button>
-              </div>
+        <!-- Mobile sidebar -->
+        <div class="mobile-sidebar disabled">
+            <button id="close-nav-btn" class = "nav-icon">
+                <img src="../../assets/icons/close.svg" alt="setting icon" />
+            </button>
+            <div class="lessons-list">
+                <p class="lessons-link active">Time</p>
+                <a class="lessons-link" href="../number/">Numbers</a>
+                <a class="lessons-link" href="../phoneme/">Phoneme</a>
+                <a class="lessons-link" href="../date/">Date</a>
             </div>
-            <span class="learn-time">:</span>
-            <div class="minute-btn-container">
-              <p id="minute-input" class="learn-time">00</p>
-              <div class="inc-btn-container">
-                <button
-                  id="minute-inc"
-                  data-name="minute"
-                  data-op="add"
-                  class="inc-btn inc"
-                >
-                  +
-                </button>
-                <button
-                  id="hour-dec"
-                  data-name="minute"
-                  data-op="min"
-                  class="inc-btn dec"
-                >
-                  −
-                </button>
-              </div>
-            </div>
-          </div>
-          <!-- *************** time telling begin **************** -->
-          <div class="telling-container">
-              <div>
-                  <p class="format-title">Official</p>
-                  <div >
-                      <p class="telling casual-telling telling-text of-time-inword"/>
-                      ES ist Siebenunddreizig Minuten vor zwei.
-                      </p>
-                  </div>
-              </div>
-
-              <div> 
-                  <p class="format-title">Colloquial</p>
-                  <div class="co-time-inword" >
-                      <p class="telling casual-telling telling-text">
-                      ES ist Siebenunddreizig Minuten vor zwei.
-                      </p>
-                      <p class="telling casual-telling telling-text">
-                      ES ist Siebenunddreizig Minuten vor zwei.
-                      </p>
-
-                  </div>
-              </div>
-          </div>
-
-          <!-- *************** time telling begin **************** -->
-
-          <div class="lesson-container">
-            <h2 class="para-title">How to Ask for the Time</h2>
-            <p class="lesson-para">
-              When you want to know what time it is, a polite way to ask is by
-              saying, “What time is it?” You can also use variations like “Do
-              you have the time?” or “Could you tell me the time, please?” These
-              phrases are commonly used in everyday conversations, and adding
-              “please” makes the request more courteous.
-            </p>
-            <p class="lesson-para">
-              When speaking informally with friends, you might say something
-              like “Got the time?” It's important to use a friendly tone and
-              make eye contact if you’re asking in person.
-            </p>
-
-            <h2 class="para-title">How to Tell the Time</h2>
-            <p class="lesson-para">
-              To tell the time, you usually say the hour first, followed by the
-              minutes. For example, if the clock shows 3:15, you would say “It’s
-              three fifteen.” If it’s exactly on the hour, like 4:00, you can
-              say “It’s four o’clock.”
-            </p>
-            <p class="lesson-para">
-              For times with 30 minutes, you can say “It’s half past four,” and
-              for 15 minutes, “It’s quarter past four” or “It’s quarter to
-              five,” depending on whether it's 15 minutes after or before the
-              hour. Using “a.m.” and “p.m.” helps clarify if it's morning or
-              afternoon, especially when it’s not obvious.
-            </p>
-          </div>
         </div>
-      </div>
-    </div>
-    
-    <!-- Mobile sidebar -->
-    <div class="mobile-sidebar disabled">
-          <button id="close-nav-btn" class = "nav-icon">
-              <img src="../../assets/icons/close.svg" alt="setting icon" />
-          </button>
-        <div class="lessons-list">
-            <p class="lessons-link active">Time</p>
-            <a class="lessons-link" href="../number/">Numbers</a>
-            <a class="lessons-link" href="../phoneme/">Phoneme</a>
-            <a class="lessons-link" href="../date/">Date</a>
-        </div>
-    </div>
-    <!-- *************************** scripts ********************** -->
-    <script src="./script.js" defer></script>
-    <script src="../../utils/js/lessons/nav-switch.js" defer></script>
-    <script src="../time/js/practice.js" type="module"></script>
-    <script src="../time/js/learn.js" type="module"></script>
-  </body>
+        <!-- *************************** scripts ********************** -->
+        <script src="./script.js" defer></script>
+        <script src="../../utils/js/lessons/nav-switch.js" defer></script>
+        <script src="../time/js/practice.js" type="module"></script>
+        <script src="../time/js/learn.js" type="module"></script>
+    </body>
 </html>

@@ -1,4 +1,4 @@
-import { getRandomTime,  getOfficialTime, is24HourFormat} from "./time-function.js";
+import { getRandomTime,  getOfficialTime, is24HourFormat, getUnofficialTime} from "./time-function.js";
 import { evaluateTimeAnswer, compareStringsAndHighlight } from "./time-correction.js";
 
 
@@ -8,7 +8,6 @@ const answerInp = document.getElementById("answer-input")
 const correctionEl = document.getElementById("correction-p")
 const modeRadios = document.getElementsByName("mode-radio")
 
-let currentTimeStr = ""
 let currentTime = ""
 
 function init(){
@@ -22,7 +21,6 @@ function resetTime(){
     const randomTimeStr = getOfficialTime( randomTime) 
 
     currentTime = randomTime
-    currentTimeStr = randomTimeStr
 
     timeDisplayElt.textContent = randomTime
     answerInp.style.width = `${randomTimeStr.length + 2 +(Math.floor(Math.random() * 3) + 1)}ch` 
@@ -36,10 +34,23 @@ function resetTime(){
 
 function handleAnsInput(event){
     const userValue = event.target.value 
-    const correctValue = currentTimeStr
-    const correctness = evaluateTimeAnswer(userValue, correctValue);
 
-    switch (correctness){
+    let candidateStrs = []
+
+    const mode = getMode()
+
+    if (mode == "co"){
+        candidateStrs = getUnofficialTime(currentTime)
+    }else{
+
+        candidateStrs = [getOfficialTime(currentTime)]
+    }
+
+
+
+    const {grade, match}= evaluateTimeAnswer( candidateStrs, userValue);
+
+    switch (grade){
         case "A":
             removeError(answerInp)
             answerInp.classList.add("error-msg", "error-green")
@@ -47,17 +58,17 @@ function handleAnsInput(event){
         case "B":
             removeError(answerInp)
             answerInp.classList.add("error-msg", "error-green")
-            compareStringsAndHighlight(correctValue, userValue, correctionEl, "B")
+            compareStringsAndHighlight(match, userValue, correctionEl, "B")
             break;
         case "C":
             removeError(answerInp)
             answerInp.classList.add("error-msg", "error-yellow")
-            compareStringsAndHighlight(correctValue, userValue, correctionEl, "C")
+            compareStringsAndHighlight(match, userValue, correctionEl, "C")
             break;
         case "D":
             removeError(answerInp)
             answerInp.classList.add("error-msg", "error-red")
-            compareStringsAndHighlight(correctValue, userValue, correctionEl, "D")
+            compareStringsAndHighlight(match, userValue, correctionEl, "D")
             break;
         default:
             removeError(answerInp)

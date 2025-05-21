@@ -1,33 +1,55 @@
-export function evaluateTimeAnswer(correctStr, userStr) {
-  if (correctStr === userStr) return 'A';
-  if (correctStr.toLowerCase() === userStr.toLowerCase()) return 'B';
+export function evaluateTimeAnswer(correctAnswers, userStr) {
+  // Grade weights (higher = better)
+  const gradeValues = { A: 3, B: 2, C: 1, D: 0 };
 
-  // Normalize umlauts and handle common typos
-function normalize(str) {
-    return str
-      .toLowerCase()
-      .replace(/ue/g, 'ü')
-      .replace(/oe/g, 'ö')
-      .replace(/o/g, 'ö')
-      .replace(/ae/g, 'ä')
-      .replace(/u/g, 'ü') // catch "funf" -> "fünf"
-      .replace(/oe/g, 'ö')
-      .replace(/ae/g, 'ä')
-      .replace(/veir/g, 'vier')
-      .replace(/drie/g, 'drei')
-      .replace(/funf/g, 'fünf')
-      .replace(/ss/g, 'ß')
-      .replace(/sz/g, 'ß')
-      .replace(/z/g, 'ß')
-      .replace(/s/g, 'ß');
+  // Determine grade between one correct answer and the user string
+  function getGrade(correct, user) {
+    if (correct === user) return 'A';
+    if (correct.toLowerCase() === user.toLowerCase()) return 'B';
+
+    function normalize(str) {
+      return str
+        .toLowerCase()
+        .replace(/ue/g, 'ü')
+        .replace(/oe/g, 'ö')
+        .replace(/ae/g, 'ä')
+        .replace(/o/g, 'ö')
+        .replace(/u/g, 'ü')
+        .replace(/nn/g, 'n')      // remove double‐n noise
+        .replace(/ss/g, 'ß')
+        .replace(/sz/g, 'ß')
+        .replace(/z/g, 'ß')
+        .replace(/s/g, 'ß')
+        .replace(/veir/g, 'vier')
+        .replace(/drie/g, 'drei')
+        .replace(/funf/g, 'fünf');
+    }
+
+    const a = normalize(correct);
+    const b = normalize(user);
+    if (a === b) return 'C';
+    return 'D';
   }
 
-  const normalizedCorrect = normalize(correctStr);
-  const normalizedUser = normalize(userStr);
+  // If no correct answers, automatically worst grade
+  if (correctAnswers.length === 0) {
+    return { grade: 'D', match: null };
+  }
 
-  if (normalizedCorrect === normalizedUser) return 'C';
+  // Phase 1: grade all candidates
+  const ranked = correctAnswers.map(ans => ({
+    answer: ans,
+    grade: getGrade(ans, userStr),
+    score: gradeValues[getGrade(ans, userStr)]
+  }));
 
-  return 'D';
+  // Phase 2: sort descending by score
+  ranked.sort((a, b) => b.score - a.score);
+
+  // Best‐scoring candidate
+  const { grade, answer: match } = ranked[0];
+
+  return { grade, match };
 }
 
 export function compareStringsAndHighlight(str1, str2, el, severity) {
