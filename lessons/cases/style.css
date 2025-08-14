@@ -58,4 +58,85 @@ body {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
+  margin-top: 10vh;
+}
+
+.practice-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#question-card {
+  font-family: Righ;
+  width: 50vw;
+}
+
+.instruction {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+#question-text {
+  margin-bottom: 1.5rem;
+  line-height: 2ch;
+}
+
+#answer-options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+}
+
+.answer-option {
+  margin-bottom: 0.5rem;
+}
+
+.answer-option input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+#explanation-text {
+  margin-bottom: 2.5rem;
+  line-height: 2.5ch;
+  height: 3ch;
+}
+
+#navigation-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+#navigation-buttons button {
+  border: 2px solid var(--accent-color);
+  background-color: transparent;
+  color: var(--secondary-color);
+  padding: 0.5rem 1.5rem;
+  border-radius: 100vw;
+  cursor: pointer;
+  font-family: Righ;
+}
+
+#navigation-buttons button:disabled {
+  border-color: var(--gray);
+  color: var(--gray);
+  cursor: not-allowed;
+}
+
+.correct {
+  border: 2px solid var(--error-green) !important;
+  background-color: var(--error-green) !important;
+}
+
+.was-correct {
+  border: 2px solid var(--error-green) !important;
+}
+
+.incorrect {
+  border: 2px solid var(--error-red) !important;
+  background-color: var(--error-red) !important;
 }

@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./style.css" />
-  <link rel="stylesheet" href="./css/practice.css" />
   <title>Der Frau?</title>
 </head>
 
@@ -30,10 +29,19 @@
       </div>
     </div>
     <div class="content-container">
-      <div class="lp-nav">
-        <button class="lp-nav-btn" id="prac-btn">Wählen Sie die richtige Antwort.</button>
-      </div>
       <div class="practice-section">
+        <div id="question-card">
+          <p class="instruction">
+            Choose the correct answer.
+          </p>
+          <p id="question-text"></p>
+          <div id="answer-options"></div>
+          <p id="explanation-text"></p>
+          <div id="navigation-buttons">
+            <button id="prev-btn">Prev</button>
+            <button id="next-btn">Next</button>
+          </div>
+        </div>
       </div>
     </div>
     <p></p>
@@ -41,7 +49,6 @@
     <div class="mobile-sidebar disabled">
       <button id="close-nav-btn" class="nav-icon">
         <img src="../../assets/icons/close.svg" alt="setting icon" />
-
       </button>
       <div class="lessons-list">
         <a class="lessons-link" href="../time/">Time</a>
@@ -54,7 +61,6 @@
     <!-- *************************** scripts ********************** -->
     <script src="./script.js" defer></script>
     <script src="../../utils/js/lessons/nav-switch.js" defer></script>
-    <script src="../cases/js/practice.js" type="module"></script>
 </body>
 
 </html>

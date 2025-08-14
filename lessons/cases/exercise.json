@@ -1,4 +1,3 @@
-
 [
   {
     "question": "Welcher Artikel passt in die Lücke? 'Ich sehe ___ Mann.'",
@@ -109,8 +108,7 @@
     },
     "correct_answer": "B",
     "explanation": "Das Verb 'danken' erfordert den Dativ. Der feminine Artikel im Dativ ist 'der'."
-  }
-,
+  },
   {
     "question": "Welcher Artikel passt in die Lücke? 'Die Mutter gibt ___ Kind einen Apfel.'",
     "options": {
