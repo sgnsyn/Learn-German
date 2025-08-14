@@ -102,7 +102,7 @@ body {
 #explanation-text {
   margin-bottom: 2.5rem;
   line-height: 2.5ch;
-  height: 3ch;
+  min-height: 3ch;
 }
 
 #navigation-buttons {
