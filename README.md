@@ -9,3 +9,5 @@ This website is designed to help users **easily learn and practice** basic but e
 - 🔤 Explore and practice **phonemes** to improve your German pronunciation  
 - ✨ More simple and practical learning tools are coming soon!
 
+### Link
+[Learn-German](https://sgnsyn.github.io/Learn-German/)
