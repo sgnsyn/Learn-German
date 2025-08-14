@@ -68,11 +68,12 @@ body {
 }
 
 #question-card {
-  font-family: Righ;
-  width: 50vw;
+  font-family: Mono;
+  width: 60vw;
 }
 
 .instruction {
+  font-family: Righ;
   margin-bottom: 2rem;
   font-size: 2rem;
 }
