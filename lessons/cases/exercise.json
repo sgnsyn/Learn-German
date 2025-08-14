@@ -1,0 +1,1005 @@
+
+[
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Ich sehe ___ Mann.'",
+    "options": {
+      "A": "der",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Verb 'sehen' erfordert den Akkusativ. Der maskuline Artikel im Akkusativ ist 'den'."
+  },
+  {
+    "question": "Welches Pronomen passt in die Lücke? 'Gib ___ bitte das Buch.'",
+    "options": {
+      "A": "ich",
+      "B": "mich",
+      "C": "mir",
+      "D": "mein"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'geben' erfordert den Dativ. Das Personalpronomen im Dativ ist 'mir'."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Er hat ___ Schwester.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Schwester' ist feminin und steht im Akkusativ. Die Akkusativform von 'kein' für feminine Nomen ist 'keine'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Das Auto <u>des Mannes</u> ist rot.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "D",
+    "explanation": "Der Genitiv wird verwendet, um Besitz oder Zugehörigkeit anzuzeigen. 'Des Mannes' zeigt an, wem das Auto gehört."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Wir helfen ___ Kind.'",
+    "options": {
+      "A": "das",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'helfen' erfordert den Dativ. Der neutrale Artikel im Dativ ist 'dem'."
+  },
+  {
+    "question": "Welches Possessivpronomen passt in die Lücke? 'Das ist ___ Tasche.' (Die Tasche gehört mir)",
+    "options": {
+      "A": "mein",
+      "B": "meine",
+      "C": "meinen",
+      "D": "meinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Tasche' ist feminin und steht im Nominativ. Das Possessivpronomen muss die feminine Endung '-e' haben."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Ich sehe ___ Hunde.' (Plural)",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Im Plural Akkusativ wird 'keine' verwendet."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? '<u>Der Lehrer</u> gibt dem Schüler eine Aufgabe.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Subjekt des Satzes, 'Der Lehrer', steht immer im Nominativ."
+  },
+  {
+    "question": "Welches Demonstrativpronomen passt in die Lücke? '___ Stift hier gehört mir.'",
+    "options": {
+      "A": "Dieser",
+      "B": "Diese",
+      "C": "Dieses",
+      "D": "Diesen"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Nomen 'Stift' ist maskulin und steht im Nominativ. Das Demonstrativpronomen muss die maskuline Endung '-er' haben."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Er dankt ___ Frau.'",
+    "options": {
+      "A": "die",
+      "B": "der",
+      "C": "den",
+      "D": "des"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Verb 'danken' erfordert den Dativ. Der feminine Artikel im Dativ ist 'der'."
+  }
+,
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Die Mutter gibt ___ Kind einen Apfel.'",
+    "options": {
+      "A": "das",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'geben' hat zwei Objekte. Das Kind ist das indirekte Objekt und steht im Dativ. Der neutrale Artikel im Dativ ist 'dem'."
+  },
+  {
+    "question": "Welches Pronomen passt in die Lücke? 'Kannst du ___ helfen?'",
+    "options": {
+      "A": "ich",
+      "B": "mich",
+      "C": "mir",
+      "D": "mein"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'helfen' erfordert den Dativ. Das Personalpronomen im Dativ ist 'mir'."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Wir haben ___ Zeit.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Zeit' ist feminin und steht im Akkusativ. Die Akkusativform von 'kein' für feminine Nomen ist 'keine'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Ich danke <u>Ihnen</u>.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'danken' erfordert den Dativ. 'Ihnen' ist die Dativform des formellen Personalpronomens 'Sie'."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Das ist das Haus ___ Arztes.'",
+    "options": {
+      "A": "der",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "D",
+    "explanation": "Der Genitiv wird verwendet, um Besitz anzuzeigen. Der maskuline Artikel im Genitiv ist 'des'."
+  },
+  {
+    "question": "Welches Possessivpronomen passt in die Lücke? 'Das sind ___ Bücher.' (Die Bücher gehören mir)",
+    "options": {
+      "A": "mein",
+      "B": "meine",
+      "C": "meinen",
+      "D": "meinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Bücher' ist Plural und steht im Nominativ. Das Possessivpronomen muss die Pluralendung '-e' haben."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Er trinkt ___ Alkohol.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Nomen 'Alkohol' ist maskulin und steht im Akkusativ. Die Akkusativform von 'kein' für maskuline Nomen ist 'keinen'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Siehst du <u>den Vogel</u> dort?'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Verb 'sehen' erfordert den Akkusativ. 'Den Vogel' ist das direkte Objekt des Satzes."
+  },
+  {
+    "question": "Welches Demonstrativpronomen passt in die Lücke? 'Mit ___ Frau habe ich gesprochen.'",
+    "options": {
+      "A": "dieser",
+      "B": "diese",
+      "C": "diesem",
+      "D": "diesen"
+    },
+    "correct_answer": "A",
+    "explanation": "Die Präposition 'mit' erfordert den Dativ. Das Nomen 'Frau' ist feminin. Das Demonstrativpronomen im Dativ feminin ist 'dieser'."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Die Farbe ___ Himmels ist blau.'",
+    "options": {
+      "A": "der",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "D",
+    "explanation": "Der Genitiv wird verwendet, um Zugehörigkeit anzuzeigen. Der maskuline Artikel im Genitiv ist 'des'."
+  },
+  {
+    "question": "Welches Personalpronomen passt in die Lücke? 'Der Hund gehört ___.' (er)",
+    "options": {
+      "A": "er",
+      "B": "ihn",
+      "C": "ihm",
+      "D": "sein"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'gehören' erfordert den Dativ. Das Personalpronomen 'er' im Dativ ist 'ihm'."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Ich habe ___ Ahnung.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Ahnung' ist feminin und steht im Akkusativ. Die Akkusativform von 'kein' für feminine Nomen ist 'keine'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Er gibt <u>der Katze</u> Futter.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'geben' hat zwei Objekte. 'Der Katze' ist das indirekte Objekt und steht im Dativ."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Das ist die Meinung ___ Experten.'",
+    "options": {
+      "A": "der",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "D",
+    "explanation": "Der Genitiv wird verwendet, um Zugehörigkeit anzuzeigen. Der maskuline Artikel im Genitiv ist 'des'."
+  },
+  {
+    "question": "Welches Possessivpronomen passt in die Lücke? 'Ist das ___ Auto?' (Das Auto gehört dir)",
+    "options": {
+      "A": "dein",
+      "B": "deine",
+      "C": "deinen",
+      "D": "deinem"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Nomen 'Auto' ist neutral und steht im Nominativ. Das Possessivpronomen hat keine Endung."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Sie hat ___ Geld.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Nomen 'Geld' ist neutral und steht im Akkusativ. Die Akkusativform von 'kein' für neutrale Nomen ist 'kein'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Wir besuchen <u>unsere Freunde</u>.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Verb 'besuchen' erfordert den Akkusativ. 'Unsere Freunde' ist das direkte Objekt des Satzes."
+  },
+  {
+    "question": "Welches Demonstrativpronomen passt in die Lücke? 'Ich möchte ___ Buch lesen.'",
+    "options": {
+      "A": "dieser",
+      "B": "diese",
+      "C": "dieses",
+      "D": "diesen"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Nomen 'Buch' ist neutral und steht im Akkusativ. Das Demonstrativpronomen im Akkusativ neutral ist 'dieses'."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Der Hund folgt ___ Spur.'",
+    "options": {
+      "A": "die",
+      "B": "der",
+      "C": "den",
+      "D": "des"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Verb 'folgen' erfordert den Dativ. Der feminine Artikel im Dativ ist 'der'."
+  },
+  {
+    "question": "Welches Personalpronomen passt in die Lücke? 'Ich sehe ___.' (sie)",
+    "options": {
+      "A": "sie",
+      "B": "ihr",
+      "C": "ihnen",
+      "D": "ihre"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Verb 'sehen' erfordert den Akkusativ. Das Personalpronomen 'sie' im Akkusativ ist 'sie'."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Er isst ___ Fleisch.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Nomen 'Fleisch' ist neutral und steht im Akkusativ. Die Akkusativform von 'kein' für neutrale Nomen ist 'kein'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Das Geschenk ist für <u>meinen Bruder</u>.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "B",
+    "explanation": "Die Präposition 'für' erfordert immer den Akkusativ."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Die Blätter ___ Baumes sind grün.'",
+    "options": {
+      "A": "der",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "D",
+    "explanation": "Der Genitiv wird verwendet, um Zugehörigkeit anzuzeigen. Der maskuline Artikel im Genitiv ist 'des'."
+  },
+  {
+    "question": "Welches Possessivpronomen passt in die Lücke? 'Wo ist ___ Schlüssel?' (Der Schlüssel gehört ihm)",
+    "options": {
+      "A": "sein",
+      "B": "seine",
+      "C": "seinen",
+      "D": "seinem"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Nomen 'Schlüssel' ist maskulin und steht im Nominativ. Das Possessivpronomen hat keine Endung."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Ich brauche ___ Hilfe.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Hilfe' ist feminin und steht im Akkusativ. Die Akkusativform von 'kein' für feminine Nomen ist 'keine'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Der Film gefällt <u>mir</u>.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'gefallen' erfordert den Dativ."
+  },
+  {
+    "question": "Welches Demonstrativpronomen passt in die Lücke? 'Mit ___ Stift schreibe ich.'",
+    "options": {
+      "A": "dieser",
+      "B": "diese",
+      "C": "diesem",
+      "D": "diesen"
+    },
+    "correct_answer": "C",
+    "explanation": "Die Präposition 'mit' erfordert den Dativ. Das Nomen 'Stift' ist maskulin. Das Demonstrativpronomen im Dativ maskulin ist 'diesem'."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Er gibt ___ Blumen seiner Freundin.'",
+    "options": {
+      "A": "die",
+      "B": "der",
+      "C": "den",
+      "D": "des"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Verb 'geben' hat zwei Objekte. 'Die Blumen' ist das direkte Objekt und steht im Akkusativ. Der Pluralartikel im Akkusativ ist 'die'."
+  },
+  {
+    "question": "Welches Personalpronomen passt in die Lücke? 'Wir warten auf ___.' (du)",
+    "options": {
+      "A": "du",
+      "B": "dich",
+      "C": "dir",
+      "D": "dein"
+    },
+    "correct_answer": "B",
+    "explanation": "Die Präposition 'auf' mit dem Verb 'warten' erfordert den Akkusativ. Das Personalpronomen 'du' im Akkusativ ist 'dich'."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Sie kauft ___ Äpfel.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Im Plural Akkusativ wird 'keine' verwendet."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Das ist das Fahrrad <u>meines Vaters</u>.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "D",
+    "explanation": "Der Genitiv wird verwendet, um Besitz anzuzeigen."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Ich komme aus ___ Schweiz.'",
+    "options": {
+      "A": "die",
+      "B": "der",
+      "C": "den",
+      "D": "des"
+    },
+    "correct_answer": "B",
+    "explanation": "Die Präposition 'aus' erfordert den Dativ. Das Nomen 'Schweiz' ist feminin. Der feminine Artikel im Dativ ist 'der'."
+  },
+  {
+    "question": "Welches Possessivpronomen passt in die Lücke? 'Das ist ___ Haus.' (Das Haus gehört uns)",
+    "options": {
+      "A": "unser",
+      "B": "unsere",
+      "C": "unseren",
+      "D": "unserem"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Nomen 'Haus' ist neutral und steht im Nominativ. Das Possessivpronomen hat keine Endung."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Er hat ___ Geschwister.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Geschwister' ist Plural und steht im Akkusativ. Die Akkusativform von 'kein' für Pluralnomen ist 'keine'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Die Schüler hören <u>dem Lehrer</u> zu.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'zuhören' erfordert den Dativ."
+  },
+  {
+    "question": "Welches Demonstrativpronomen passt in die Lücke? 'Für ___ Kuchen habe ich viel bezahlt.'",
+    "options": {
+      "A": "dieser",
+      "B": "diese",
+      "C": "dieses",
+      "D": "diesen"
+    },
+    "correct_answer": "D",
+    "explanation": "Die Präposition 'für' erfordert den Akkusativ. Das Nomen 'Kuchen' ist maskulin. Das Demonstrativpronomen im Akkusativ maskulin ist 'diesen'."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Die Hauptstadt ___ Niederlande ist Amsterdam.'",
+    "options": {
+      "A": "die",
+      "B": "der",
+      "C": "den",
+      "D": "des"
+    },
+    "correct_answer": "B",
+    "explanation": "Der Genitiv wird verwendet, um Zugehörigkeit anzuzeigen. Das Nomen 'Niederlande' ist Plural. Der Pluralartikel im Genitiv ist 'der'."
+  },
+  {
+    "question": "Welches Personalpronomen passt in die Lücke? 'Das Auto gehört ___.' (wir)",
+    "options": {
+      "A": "wir",
+      "B": "uns",
+      "C": "unser",
+      "D": "unserem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Verb 'gehören' erfordert den Dativ. Das Personalpronomen 'wir' im Dativ ist 'uns'."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Ich möchte ___ Kaffee.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Nomen 'Kaffee' ist maskulin und steht im Akkusativ. Die Akkusativform von 'kein' für maskuline Nomen ist 'keinen'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Er hilft <u>seiner Mutter</u> im Garten.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'helfen' erfordert den Dativ."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Das Dach ___ Hauses ist neu.'",
+    "options": {
+      "A": "das",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "D",
+    "explanation": "Der Genitiv wird verwendet, um Besitz anzuzeigen. Der neutrale Artikel im Genitiv ist 'des'."
+  },
+  {
+    "question": "Welches Possessivpronomen passt in die Lücke? 'Wie ist ___ Name?' (Ihr Name, formell)",
+    "options": {
+      "A": "Ihr",
+      "B": "Ihre",
+      "C": "Ihren",
+      "D": "Ihrem"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Nomen 'Name' ist maskulin und steht im Nominativ. Das formelle Possessivpronomen 'Ihr' wird großgeschrieben und hat keine Endung."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Wir sehen ___ Fehler.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Nomen 'Fehler' ist maskulin und steht im Akkusativ. Die Akkusativform von 'kein' für maskuline Nomen ist 'keinen'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Ich gebe <u>dem Hund</u> einen Knochen.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'geben' hat zwei Objekte. 'Dem Hund' ist das indirekte Objekt und steht im Dativ."
+  },
+  {
+    "question": "Welches Demonstrativpronomen passt in die Lücke? 'Trotz ___ Wetters gehen wir spazieren.'",
+    "options": {
+      "A": "dieser",
+      "B": "diese",
+      "C": "dieses",
+      "D": "diesem"
+    },
+    "correct_answer": "C",
+    "explanation": "Die Präposition 'trotz' erfordert den Genitiv. Das Nomen 'Wetter' ist neutral. Das Demonstrativpronomen im Genitiv neutral ist 'dieses'."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Erinnerst du dich an ___ Film?'",
+    "options": {
+      "A": "der",
+      "B": "die",
+      "C": "das",
+      "D": "den"
+    },
+    "correct_answer": "D",
+    "explanation": "Die Präposition 'an' mit dem Verb 'erinnern' erfordert den Akkusativ. Der maskuline Artikel im Akkusativ ist 'den'."
+  },
+  {
+    "question": "Welches Personalpronomen passt in die Lücke? 'Das Geschenk ist für ___.' (ich)",
+    "options": {
+      "A": "ich",
+      "B": "mich",
+      "C": "mir",
+      "D": "mein"
+    },
+    "correct_answer": "B",
+    "explanation": "Die Präposition 'für' erfordert den Akkusativ. Das Personalpronomen 'ich' im Akkusativ ist 'mich'."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Er hat ___ Geduld.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Geduld' ist feminin und steht im Akkusativ. Die Akkusativform von 'kein' für feminine Nomen ist 'keine'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Die Qualität <u>dieses Produkts</u> ist hoch.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "D",
+    "explanation": "Der Genitiv wird verwendet, um Zugehörigkeit anzuzeigen."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Wir fahren zu ___ Bahnhof.'",
+    "options": {
+      "A": "der",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "C",
+    "explanation": "Die Präposition 'zu' erfordert den Dativ. Der maskuline Artikel im Dativ ist 'dem'."
+  },
+  {
+    "question": "Welches Possessivpronomen passt in die Lücke? 'Das ist ___ Fahrrad.' (Das Fahrrad gehört ihr)",
+    "options": {
+      "A": "ihr",
+      "B": "ihre",
+      "C": "ihren",
+      "D": "ihrem"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Nomen 'Fahrrad' ist neutral und steht im Nominativ. Das Possessivpronomen hat keine Endung."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Ich habe ___ Fragen.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Im Plural Akkusativ wird 'keine' verwendet."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Er schreibt <u>einen Brief</u>.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Verb 'schreiben' erfordert den Akkusativ. 'Einen Brief' ist das direkte Objekt des Satzes."
+  },
+  {
+    "question": "Welches Demonstrativpronomen passt in die Lücke? 'Nach ___ Prüfung machen wir eine Party.'",
+    "options": {
+      "A": "dieser",
+      "B": "diese",
+      "C": "diesem",
+      "D": "diesen"
+    },
+    "correct_answer": "A",
+    "explanation": "Die Präposition 'nach' erfordert den Dativ. Das Nomen 'Prüfung' ist feminin. Das Demonstrativpronomen im Dativ feminin ist 'dieser'."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Trotz ___ Regens gehen wir raus.'",
+    "options": {
+      "A": "der",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "D",
+    "explanation": "Die Präposition 'trotz' erfordert den Genitiv. Der maskuline Artikel im Genitiv ist 'des'."
+  },
+  {
+    "question": "Welches Personalpronomen passt in die Lücke? 'Kannst du ___ bitte helfen?' (wir)",
+    "options": {
+      "A": "wir",
+      "B": "uns",
+      "C": "unser",
+      "D": "unserem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Verb 'helfen' erfordert den Dativ. Das Personalpronomen 'wir' im Dativ ist 'uns'."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Sie trinkt ___ Wein.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Nomen 'Wein' ist maskulin und steht im Akkusativ. Die Akkusativform von 'kein' für maskuline Nomen ist 'keinen'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Das Auto gehört <u>meinem Onkel</u>.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'gehören' erfordert den Dativ."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Die Kinder spielen im Garten ___ Schule.'",
+    "options": {
+      "A": "die",
+      "B": "der",
+      "C": "den",
+      "D": "des"
+    },
+    "correct_answer": "B",
+    "explanation": "Der Genitiv wird verwendet, um Zugehörigkeit anzuzeigen. Der feminine Artikel im Genitiv ist 'der'."
+  },
+  {
+    "question": "Welches Possessivpronomen passt in die Lücke? 'Das ist ___ Hund.' (Der Hund gehört euch)",
+    "options": {
+      "A": "euer",
+      "B": "eure",
+      "C": "euren",
+      "D": "eurem"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Nomen 'Hund' ist maskulin und steht im Nominativ. Das Possessivpronomen hat keine Endung."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Ich habe ___ Lust.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Lust' ist feminin und steht im Akkusativ. Die Akkusativform von 'kein' für feminine Nomen ist 'keine'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Er hat <u>den Ball</u> gefangen.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Verb 'fangen' erfordert den Akkusativ. 'Den Ball' ist das direkte Objekt des Satzes."
+  },
+  {
+    "question": "Welches Demonstrativpronomen passt in die Lücke? 'Wegen ___ Problems müssen wir umplanen.'",
+    "options": {
+      "A": "dieser",
+      "B": "diese",
+      "C": "dieses",
+      "D": "diesem"
+    },
+    "correct_answer": "C",
+    "explanation": "Die Präposition 'wegen' erfordert den Genitiv. Das Nomen 'Problem' ist neutral. Das Demonstrativpronomen im Genitiv neutral ist 'dieses'."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Ich gehe mit ___ Freunden ins Kino.'",
+    "options": {
+      "A": "die",
+      "B": "der",
+      "C": "den",
+      "D": "des"
+    },
+    "correct_answer": "C",
+    "explanation": "Die Präposition 'mit' erfordert den Dativ. Das Nomen 'Freunden' ist Plural. Der Pluralartikel im Dativ ist 'den'."
+  },
+  {
+    "question": "Welches Personalpronomen passt in die Lücke? 'Die Lehrerin hilft ___.' (die Schüler, Plural)",
+    "options": {
+      "A": "sie",
+      "B": "ihr",
+      "C": "ihnen",
+      "D": "euch"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'helfen' erfordert den Dativ. Das Personalpronomen 'sie' (Plural) im Dativ ist 'ihnen'."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Er macht ___ Fehler.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Nomen 'Fehler' ist maskulin und steht im Akkusativ. Die Akkusativform von 'kein' für maskuline Nomen ist 'keinen'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Das ist die Tasche <u>meiner Schwester</u>.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "D",
+    "explanation": "Der Genitiv wird verwendet, um Besitz anzuzeigen."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Sie kommt aus ___ USA.' (Plural)",
+    "options": {
+      "A": "die",
+      "B": "der",
+      "C": "den",
+      "D": "des"
+    },
+    "correct_answer": "C",
+    "explanation": "Die Präposition 'aus' erfordert den Dativ. Das Nomen 'USA' ist Plural. Der Pluralartikel im Dativ ist 'den'."
+  },
+  {
+    "question": "Welches Possessivpronomen passt in die Lücke? 'Das sind ___ Stifte.' (Die Stifte gehören ihm)",
+    "options": {
+      "A": "sein",
+      "B": "seine",
+      "C": "seinen",
+      "D": "seinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Stifte' ist Plural und steht im Nominativ. Das Possessivpronomen muss die Pluralendung '-e' haben."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Ich esse ___ Suppe.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Suppe' ist feminin und steht im Akkusativ. Die Akkusativform von 'kein' für feminine Nomen ist 'keine'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Er schenkt <u>ihr</u> ein Buch.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'schenken' hat zwei Objekte. 'Ihr' ist das indirekte Objekt und steht im Dativ."
+  },
+  {
+    "question": "Welches Demonstrativpronomen passt in die Lücke? 'An ___ Tag kann ich mich gut erinnern.'",
+    "options": {
+      "A": "dieser",
+      "B": "diese",
+      "C": "dieses",
+      "D": "diesen"
+    },
+    "correct_answer": "D",
+    "explanation": "Die Präposition 'an' mit dem Verb 'erinnern' erfordert den Akkusativ. Das Nomen 'Tag' ist maskulin. Das Demonstrativpronomen im Akkusativ maskulin ist 'diesen'."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Während ___ Konzerts war es leise.'",
+    "options": {
+      "A": "das",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "D",
+    "explanation": "Die Präposition 'während' erfordert den Genitiv. Der neutrale Artikel im Genitiv ist 'des'."
+  },
+  {
+    "question": "Welches Personalpronomen passt in die Lücke? 'Ich spiele mit ___.' (ihr, Plural)",
+    "options": {
+      "A": "ihr",
+      "B": "euch",
+      "C": "euer",
+      "D": "eurem"
+    },
+    "correct_answer": "B",
+    "explanation": "Die Präposition 'mit' erfordert den Dativ. Das Personalpronomen 'ihr' (Plural) im Dativ ist 'euch'."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Sie hat ___ Kinder.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Kinder' ist Plural und steht im Akkusativ. Die Akkusativform von 'kein' für Pluralnomen ist 'keine'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Der Hund des Nachbarn bellt laut.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "D",
+    "explanation": "Der Genitiv wird verwendet, um Besitz anzuzeigen. 'Des Nachbarn' zeigt an, wem der Hund gehört."
+  },
+  {
+    "question": "Welcher Artikel passt in die Lücke? 'Er fährt mit ___ Auto zur Arbeit.'",
+    "options": {
+      "A": "das",
+      "B": "den",
+      "C": "dem",
+      "D": "des"
+    },
+    "correct_answer": "C",
+    "explanation": "Die Präposition 'mit' erfordert den Dativ. Der neutrale Artikel im Dativ ist 'dem'."
+  },
+  {
+    "question": "Welches Possessivpronomen passt in die Lücke? 'Das ist ___ Katze.' (Die Katze gehört ihnen, Plural)",
+    "options": {
+      "A": "ihr",
+      "B": "ihre",
+      "C": "ihren",
+      "D": "ihrem"
+    },
+    "correct_answer": "B",
+    "explanation": "Das Nomen 'Katze' ist feminin und steht im Nominativ. Das Possessivpronomen muss die feminine Endung '-e' haben."
+  },
+  {
+    "question": "Welche Form von 'kein' passt in die Lücke? 'Ich trinke ___ Bier.'",
+    "options": {
+      "A": "kein",
+      "B": "keine",
+      "C": "keinen",
+      "D": "keinem"
+    },
+    "correct_answer": "A",
+    "explanation": "Das Nomen 'Bier' ist neutral und steht im Akkusativ. Die Akkusativform von 'kein' für neutrale Nomen ist 'kein'."
+  },
+  {
+    "question": "In welchem Fall steht das unterstrichene Wort? 'Sie gibt <u>dem Mann</u> die Hand.'",
+    "options": {
+      "A": "Nominativ",
+      "B": "Akkusativ",
+      "C": "Dativ",
+      "D": "Genitiv"
+    },
+    "correct_answer": "C",
+    "explanation": "Das Verb 'geben' hat zwei Objekte. 'Dem Mann' ist das indirekte Objekt und steht im Dativ."
+  },
+  {
+    "question": "Welches Demonstrativpronomen passt in die Lücke? 'Ohne ___ Wörterbuch kann ich nicht übersetzen.'",
+    "options": {
+      "A": "dieser",
+      "B": "diese",
+      "C": "dieses",
+      "D": "diesen"
+    },
+    "correct_answer": "C",
+    "explanation": "Die Präposition 'ohne' erfordert den Akkusativ. Das Nomen 'Wörterbuch' ist neutral. Das Demonstrativpronomen im Akkusativ neutral ist 'dieses'."
+  }
+]

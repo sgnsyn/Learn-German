@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <title>Phoneme</title>
-  </head>
-  <body>
-    <nav>
-      <a class="homepage-link" href="../../index.html">Learn German</a>
-      <div class ="menu-theme-container">
-          <button id="menu-btn" class = "nav-icon">
-              <img src="../../assets/icons/menu.svg" alt="setting icon" />
-          </button>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Phoneme</title>
+</head>
+
+<body>
+  <nav>
+    <a class="homepage-link" href="../../index.html">Learn German</a>
+    <div class="menu-theme-container">
+      <button id="menu-btn" class="nav-icon">
+        <img src="../../assets/icons/menu.svg" alt="setting icon" />
+      </button>
+    </div>
+  </nav>
+  <div class="main-container">
+    <div class="sidebar">
+      <p class="side-title">Lessons</p>
+      <div class="lessons-list">
+        <a class="lessons-link" href="../time/">Time</a>
+        <a class="lessons-link" href="../cases/">Cases</a>
+        <a class="lessons-link" href="../number/">Numbers</a>
+        <p class="lessons-link active">Phoneme</p>
+        <a class="lessons-link" href="../date/">Date</a>
       </div>
-    </nav>
-    <div class="main-container">
-      <div class="sidebar">
-        <p class="side-title">Lessons</p>
-        <div class="lessons-list">
-          <a class="lessons-link" href="../time/">Time</a>
-          <a class="lessons-link" href="../number/">Numbers</a>
-          <p class="lessons-link active">Phoneme</p>
-          <a class="lessons-link" href="../date/">Date</a>
-        </div>
+    </div>
+    <div class="content-container">
+      <div class="coming-soon-container">
+        <div class="roller"></div>
+        <p class="text-shadows">Coming Soon</p>
       </div>
-      <div class="content-container">
-          <div class="coming-soon-container">
-              <div class="roller"></div>
-              <p class="text-shadows">Coming Soon</p>
-          </div>
     </div>
     <!-- Mobile sidebar -->
     <div class="mobile-sidebar disabled">
-          <button id="close-nav-btn" class = "nav-icon">
-              <img src="../../assets/icons/close.svg" alt="setting icon" />
-          </button>
-        <div class="lessons-list">
-          <a class="lessons-link" href="../time/">Time</a>
-          <a class="lessons-link" href="../number/">Numbers</a>
-          <p class="lessons-link active">Phoneme</p>
-          <a class="lessons-link" href="../date/">Date</a>
-        </div>
+      <button id="close-nav-btn" class="nav-icon">
+        <img src="../../assets/icons/close.svg" alt="setting icon" />
+      </button>
+      <div class="lessons-list">
+        <a class="lessons-link" href="../time/">Time</a>
+        <a class="lessons-link" href="../cases/">Cases</a>
+        <a class="lessons-link" href="../number/">Numbers</a>
+        <p class="lessons-link active">Phoneme</p>
+        <a class="lessons-link" href="../date/">Date</a>
+      </div>
     </div>
     <!-- *************************** scripts ********************** -->
     <script src="./script.js" defer></script>
-  </body>
+    <script src="../../utils/js/lessons/nav-switch.js" defer></script>
+</body>
+
 </html>

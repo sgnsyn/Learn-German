@@ -1,57 +1,61 @@
 @import url("../../utils/css/util.css");
 @import url("../../utils/css/lessons.css");
 
-html{
-    --accent-color: var(--blue);
+html {
+  --accent-color: var(--sky-blue);
 }
 
 body {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    height: 100vh;
-    gap: 1rem;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  height: 100vh;
+  gap: 1rem;
 }
 
-.main-container{
-    display:flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
-
-.lp-nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 3.5625rem; /* 57px / 16 */
-    margin-bottom: 3rem; /* 58px / 16 */
-}
-.lp-nav-btn{
-    font-family: Righ;
-    color: var(--secondary-color);
-    position: relative;
-    font-size: 1rem;
-}
-.lp-nav-btn::after{
-    content: "";
-    position: absolute;
-    height: 0.2ch;
-    background-color: var(--accent-color);
-    border-radius:100vw;
-    bottom: -0.5ch;
-    left:50%;
-    transform: translateX(-50%)
-}
-.lp-nav-btn.active{
-    color: var(--accent-color)
-}
-.lp-nav-btn.active::after{
-    width: 66%;
+.lp-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5625rem;
+  /* 57px / 16 */
+  margin-bottom: 3rem;
+  /* 58px / 16 */
 }
 
-.content-container{
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
+.lp-nav-btn {
+  font-family: Righ;
+  color: var(--secondary-color);
+  position: relative;
+  font-size: 1rem;
 }
 
+.lp-nav-btn::after {
+  content: "";
+  position: absolute;
+  height: 0.2ch;
+  background-color: var(--accent-color);
+  border-radius: 100vw;
+  bottom: -0.5ch;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.lp-nav-btn.active {
+  color: var(--accent-color);
+}
+
+.lp-nav-btn.active::after {
+  width: 66%;
+}
+
+.content-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}

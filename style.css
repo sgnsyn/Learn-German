@@ -1,147 +1,175 @@
 @import url("./utils/css/util.css");
 
-body{
-    background-color: var(--primary-color); 
-    color: var(--secondary-color);
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
-
-
-.hero-text{
-    font-family: Unifrak;
-    font-size: 3.875rem; /* 78px / 16 */
-    width: 100%;
-    text-align:center;
-    margin-bottom: 2.5rem; /* 100px / 16 */
+.hero-text {
+  font-family: Unifrak;
+  font-size: 3.875rem;
+  /* 78px / 16 */
+  width: 100%;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  /* 100px / 16 */
 }
 
-.cards-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 20rem);
-    justify-content: center;
-    gap: 1rem;   
-    padding-inline: 13.125vw;
-    margin-bottom: 2rem; /* 32px / 16 */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 20rem);
+  justify-content: center;
+  gap: 1rem;
+  padding-inline: 13.125vw;
+  margin-bottom: 2rem;
+  /* 32px / 16 */
 }
 
-.card{
-    color: var(--black);
-    height: 24.75rem; /* 396px / 16 */
-    border-radius:1rem;
-    background-color: var(--card-color-1);
-    position: relative;
-}
-.card .top-container{
-    background-color: var(--card-color-2);
-    height: 50%;
-    border-radius:1rem; /* 16px / 16 */
-    display: grid;
-    place-content: center;
-    font-family: Unifrak;
-    margin-bottom: 1rem; /* 16px / 16 */
+.card {
+  color: var(--black);
+  height: 24.75rem;
+  /* 396px / 16 */
+  border-radius: 1rem;
+  background-color: var(--card-color-1);
+  position: relative;
 }
 
-.card .bottom-container{
-    padding-inline: 1.125rem; /* 18px / 16 */
+.card .top-container {
+  background-color: var(--card-color-2);
+  height: 50%;
+  border-radius: 1rem;
+  /* 16px / 16 */
+  display: grid;
+  place-content: center;
+  font-family: Unifrak;
+  margin-bottom: 1rem;
+  /* 16px / 16 */
 }
 
-.card .card-footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1.4375rem; /* 23px / 16 */
+.card .bottom-container {
+  padding-inline: 1.125rem;
+  /* 18px / 16 */
 }
 
-.card .title{
-    font-family:Righ;
-    margin-bottom: 0.875rem; /* 14px / 16 */
-    font-size: 2rem; /* 32px / 16 */
+.card .card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.4375rem;
+  /* 23px / 16 */
 }
 
-.card .description{
-    width: 29ch;
-    font-family: Mono;
-    margin-bottom: 1.625rem; /* 26px / 16 */
-    font-size: 1rem; /* 16px / 16 */
+.card .title {
+  font-family: Righ;
+  margin-bottom: 0.875rem;
+  /* 14px / 16 */
+  font-size: 2rem;
+  /* 32px / 16 */
 }
 
-.lessons{
-    font-family: Righ;
-    display: flex;
-    gap: 2.5rem; /* 40px / 16 */
-    margin-left: 1.125rem; /* 18px / 16 */
-    font-size: 0.875rem; /* 14px / 16 */
+.card .description {
+  width: 29ch;
+  font-family: Mono;
+  margin-bottom: 1.625rem;
+  /* 26px / 16 */
+  font-size: 1rem;
+  /* 16px / 16 */
 }
 
-.card .red-btn{
-    background-color: var(--card-color-2); 
-    width: 2.625rem; /* 42px / 16 */
-    height: 2.625rem; /* 42px / 16 */
-    border-radius: 100vw;
-    display: grid; 
-    place-content: center;
+.lessons {
+  font-family: Righ;
+  display: flex;
+  gap: 2.5rem;
+  /* 40px / 16 */
+  margin-left: 1.125rem;
+  /* 18px / 16 */
+  font-size: 0.875rem;
+  /* 14px / 16 */
 }
 
-.number-card{
-    --card-color-1: var(--light-yellow);
-    --card-color-2: var(--yellow)
+.card .red-btn {
+  background-color: var(--card-color-2);
+  width: 2.625rem;
+  /* 42px / 16 */
+  height: 2.625rem;
+  /* 42px / 16 */
+  border-radius: 100vw;
+  display: grid;
+  place-content: center;
 }
 
-.number-card .top-container{
-    font-size: 8.8125rem; /* 141px / 16 */
+.number-card {
+  --card-color-1: var(--light-yellow);
+  --card-color-2: var(--yellow);
 }
 
-.time-card{
-    --card-color-1: var(--light-blue);
-    --card-color-2: var(--blue)
+.number-card .top-container {
+  font-size: 8.8125rem;
+  /* 141px / 16 */
 }
 
-.time-card .top-container{
-    font-size: 5.9375rem; /* 95px / 16 */
+.time-card {
+  --card-color-1: var(--light-blue);
+  --card-color-2: var(--blue);
 }
 
-.phoneme-card{
-    --card-color-1: var(--light-green);
-    --card-color-2: var(--green)
+.time-card .top-container {
+  font-size: 5.9375rem;
+  /* 95px / 16 */
 }
 
-.phoneme-card .top-container{
-    font-size: 7.5rem; /* 120px / 16 */
+.cases-card {
+  --card-color-1: var(--light-sky-blue);
+  --card-color-2: var(--sky-blue);
 }
 
-.date-card{
-    --card-color-1: var(--light-red);
-    --card-color-2: var(--red);
+.cases-card .top-container {
+  font-size: 3rem;
 }
 
-.date-card .top-container{
-    font-size: 3rem; /* 48px / 16 */
+.phoneme-card {
+  --card-color-1: var(--light-green);
+  --card-color-2: var(--green);
 }
 
-.card.coming-soon::before{
-    content: "Coming Soon";
-    font-size: .75rem;
-    font-family: mono;
-    font-weight:bold;
-    text-align: center;
-    position: absolute;
-    background-color: var(--card-color-2);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    width: 4rem;
-    height: 4rem;
-
-    border-radius: 50%;
-    border: 0.125rem dotted var(--primary-color);
-    outline : 0.06rem solid var(--primary-color);
-    outline-offset: 0.125rem;
-
-    top: .5rem;
-    right:.5rem;
-
-    transform: rotate(-45deg);
+.phoneme-card .top-container {
+  font-size: 7.5rem;
+  /* 120px / 16 */
 }
 
+.date-card {
+  --card-color-1: var(--light-red);
+  --card-color-2: var(--red);
+}
+
+.date-card .top-container {
+  font-size: 3rem;
+  /* 48px / 16 */
+}
+
+.card.coming-soon::before {
+  content: "Coming Soon";
+  font-size: 0.75rem;
+  font-family: mono;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  background-color: var(--card-color-2);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 4rem;
+  height: 4rem;
+
+  border-radius: 50%;
+  border: 0.125rem dotted var(--primary-color);
+  outline: 0.06rem solid var(--primary-color);
+  outline-offset: 0.125rem;
+
+  top: 0.5rem;
+  right: 0.5rem;
+
+  transform: rotate(-45deg);
+}
