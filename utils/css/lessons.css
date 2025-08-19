@@ -1,102 +1,132 @@
 nav {
-    margin-bottom: 1rem; 
-}
-.main-container {
-    padding-inline: max(2rem, 3.125vw) ;
-}
-.sidebar{
-    margin-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 
-body{
-    position: relative;
+.main-container {
+  padding-inline: max(2rem, 3.125vw);
 }
-#menu-btn{
-    display: none;
+
+.sidebar {
+  margin-left: 1.5rem;
+}
+
+body {
+  position: relative;
+}
+
+#menu-btn {
+  display: none;
 }
 
 input[type="radio"] {
-    --wh: 1.125rem; /* 18px / 16 */
-    border: 0.0625rem solid var(--secondary-color); /* 1px / 16 */
-    height: var(--wh);
-    width: var(--wh);
-    appearance: none; /* Removes default styling */
-    border-radius: 50%; /* Makes it circular */
-    background-color: transparent;
+  --wh: 1.125rem;
+  /* 18px / 16 */
+  border: 0.0625rem solid var(--secondary-color);
+  /* 1px / 16 */
+  height: var(--wh);
+  width: var(--wh);
+  appearance: none;
+  /* Removes default styling */
+  border-radius: 50%;
+  /* Makes it circular */
+  background-color: transparent;
 }
 
 input[type="radio"]:checked {
-    background-color: var(--accent-color);
-    outline: 0.09375rem solid var(--primary-color); /* 1.5px / 16 */
-    border-color: var(--accent-color);
-    outline-offset: -0.1875rem; /* -3px / 16 */
+  background-color: var(--accent-color);
+  outline: 0.09375rem solid var(--primary-color);
+  /* 1.5px / 16 */
+  border-color: var(--accent-color);
+  outline-offset: -0.1875rem;
+  /* -3px / 16 */
 }
 
-.side-title{
-    font-size: 1.375rem; /* 22px / 16 */
-    font-family: Righ;
-    margin-bottom: 0.8125rem; /* 13px / 16 */
+.side-title {
+  font-size: 1.375rem;
+  /* 22px / 16 */
+  font-family: Righ;
+  margin-bottom: 0.8125rem;
+  /* 13px / 16 */
 }
 
-.lessons-list{
-    display: flex;
+.lessons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  /* 20px / 16 */
+  padding-left: 2rem;
+  /* 32px / 16 */
+}
+
+.lessons-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: Righ;
+  font-size: 1rem;
+  /* 16px / 16 */
+}
+
+.lessons-link.active {
+  color: var(--accent-color);
+}
+
+.mobile-sidebar {
+  background-color: var(--primary-color);
+  padding-top: 18vh;
+  height: 100vh;
+  width: 100vw;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-sidebar .lessons-link {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.mobile-sidebar .lessons-link.active {
+  text-decoration: none;
+}
+
+.mobile-sidebar .lessons-list {
+  padding: 0;
+  gap: 2.2rem;
+}
+
+#close-nav-btn {
+  position: absolute;
+  top: max(2rem, 3.125vw);
+  right: max(2rem, 3.125vw);
+}
+
+@media (max-width: 1115px) {
+  .sidebar {
+    display: none;
+  }
+
+  .instruction-container {
     flex-direction: column;
-    gap: 1.25rem; /* 20px / 16 */
-    padding-left: 2rem; /* 32px / 16 */
+    gap: 1rem;
+  }
+
+  .instruction {
+    align-self: flex-start;
+  }
+
+  .score-reset-container {
+    align-self: flex-start;
+    flex-direction: row-reverse;
+  }
 }
 
-.lessons-link{
-    text-decoration: none;
-    color: var(--secondary-color);
-    font-family: Righ;
-    font-size: 1rem; /* 16px / 16 */
-}
-
-.lessons-link.active{
-    color: var(--accent-color);
-}
-.mobile-sidebar{
-    background-color: var(--primary-color);
-    padding-top : 18vh;
-    height: 100vh;
-    width: 100vw;
-
-    position: fixed; 
-    top: 0;
-    left: 0;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.mobile-sidebar .lessons-link{
-    font-size : 1.2rem;
-    text-decoration: underline;
-}
-.mobile-sidebar .lessons-link.active{
-    text-decoration: none;
-}
-.mobile-sidebar .lessons-list{
-    padding: 0;
-    gap: 2.2rem;
-
-}
-
-#close-nav-btn{
-    position: absolute;
-    top:max(2rem, 3.125vw);
-    right:max(2rem, 3.125vw);
-}
-
-@media(max-width: 1115px){
-    .sidebar{
-        display:none;
-    }
-}
-
-@media(max-width: 1115px){
-    #menu-btn{
-        display:initial;
-    }
+@media (max-width: 1115px) {
+  #menu-btn {
+    display: initial;
+  }
 }
